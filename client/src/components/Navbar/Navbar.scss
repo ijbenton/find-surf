@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #247ba0;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+
+  .left {
+    display: flex;
+    align-items: center;
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+
+    a:first-child {
+      margin-right: 1.5rem;
+    }
+    strong:first-child {
+      margin-right: 1.5rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(230, 228, 228);
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+    svg {
+      width: 50px;
+      height: 50px;
+      filter: invert(100%);
+    }
+  }
+}
