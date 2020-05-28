@@ -5,8 +5,8 @@ import { connect } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
-import { register } from '../../actions/authActions';
-import { clearErrors } from '../../actions/errorActions';
+import { register } from '../../redux/auth/auth.actions';
+import { clearErrors } from '../../redux/error/error.actions';
 
 import './RegisterModal.scss';
 

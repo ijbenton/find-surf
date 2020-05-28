@@ -1,28 +1,38 @@
-import React, { Component } from 'react';
-import { Provider } from 'react-redux';
-import store from './store';
+import React, { Component, lazy, Suspense } from 'react';
 import { Switch, Route } from 'react-router-dom';
+import { connect } from 'react-redux';
 
 import Navbar from './components/Navbar/Navbar';
+import Spinner from './components/Spinner/Spinner';
 
-import { loadUser } from './actions/authActions';
+import { loadUser } from './redux/auth/auth.actions';
 
 import './App.scss';
 
+const Homepage = lazy(() => import('./pages/Homepage/Homepage'));
+
 class App extends Component {
   componentDidMount() {
-    store.dispatch(loadUser());
+    this.props.loadUser();
   }
 
   render() {
     return (
-      <Provider store={store}>
-        <div className="App">
-          <Navbar />
-        </div>
-      </Provider>
+      <div className="App">
+        <Navbar />
+
+        <Switch>
+          <Suspense fallback={<Spinner />}>
+            <Route exact path="/" render={() => <Homepage />} />
+          </Suspense>
+        </Switch>
+      </div>
     );
   }
 }
 
-export default App;
+const mapDispatchToProps = dispatch => ({
+  loadUser: () => dispatch(loadUser())
+});
+
+export default connect(null, mapDispatchToProps)(App);

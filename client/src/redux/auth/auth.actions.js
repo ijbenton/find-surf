@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { returnErrors } from './errorActions';
+import { returnErrors } from '../error/error.actions';
 
 import {
   USER_LOADED,
@@ -10,7 +10,7 @@ import {
   LOGOUT_SUCCESS,
   REGISTER_SUCCESS,
   REGISTER_FAIL
-} from './types';
+} from './auth.types';
 
 // Check token & load user
 export const loadUser = () => (dispatch, getState) => {

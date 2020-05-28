@@ -1,0 +1,2457 @@
+[
+  {
+    "_id": "5ec94c7015e7542db038e00c",
+    "country": "United States",
+    "region": "California",
+    "area": "Los Angeles County",
+    "slug": "los-angeles-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3871", "spotName": "Zuma Beach" },
+      { "_id": "5eca010741e4330e589a3895", "spotName": "Venice Beach" },
+      { "_id": "5eca010741e4330e589a38a9", "spotName": "Topanga Beach" },
+      { "_id": "5eca010741e4330e589a38a8", "spotName": "Haggerty's" },
+      { "_id": "5eca010741e4330e589a38d9", "spotName": "Sunset Point" },
+      { "_id": "5eca010741e4330e589a3908", "spotName": "Shitpipe" },
+      { "_id": "5eca010741e4330e589a394a", "spotName": "Redondo Breakwater" },
+      { "_id": "5eca010741e4330e589a3966", "spotName": "Point Dume" },
+      { "_id": "5eca010741e4330e589a3991", "spotName": "PV Cove" },
+      {
+        "_id": "5eca010741e4330e589a39e7",
+        "spotName": "Manhattan Pier, Southside"
+      },
+      {
+        "_id": "5eca010741e4330e589a39ea",
+        "spotName": "Malibu Second to Third Point"
+      },
+      { "_id": "5eca010741e4330e589a39ee", "spotName": "Lunada Bay" },
+      { "_id": "5eca010741e4330e589a3a00", "spotName": "Leo Carrillo" },
+      { "_id": "5eca010741e4330e589a3a03", "spotName": "Latigo Point" },
+      { "_id": "5eca010741e4330e589a3a8a", "spotName": "El Porto" },
+      {
+        "_id": "5eca010741e4330e589a3a9b",
+        "spotName": "Dockweiler State Beach"
+      },
+      { "_id": "5eca010741e4330e589a3abb", "spotName": "County Line" },
+      { "_id": "5eca010741e4330e589a3ad0", "spotName": "Chart House" },
+      { "_id": "5eca010741e4330e589a3ae9", "spotName": "Cabrillo Beach" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e00f",
+    "country": "Australia",
+    "region": "Western Australia",
+    "area": "Yallingup",
+    "slug": "yallingup",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3872", "spotName": "Yallingup" },
+      { "_id": "5eca010741e4330e589a38d3", "spotName": "Supertubes" },
+      { "_id": "5eca010741e4330e589a3907", "spotName": "Smiths Beach" },
+      { "_id": "5eca010741e4330e589a3a33", "spotName": "Injidup Carpark" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e00e",
+    "country": "Spain",
+    "region": "Basque Country",
+    "area": "Gipuzkoa",
+    "slug": "gipuzkoa",
+    "spots": [{ "_id": "5eca010741e4330e589a3873", "spotName": "Zarautz" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e010",
+    "country": "Australia",
+    "region": "Victoria",
+    "area": "Bass Coast",
+    "slug": "bass-coast",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3874", "spotName": "Woolamai" },
+      { "_id": "5eca010741e4330e589a3ad5", "spotName": "Cat Bay" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e011",
+    "country": "United States",
+    "region": "Georgia",
+    "area": "McIntosh County",
+    "slug": "mcintosh-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3875", "spotName": "Wolf Island" },
+      { "_id": "5eca010741e4330e589a391f", "spotName": "Sapelo Island" },
+      { "_id": "5eca010741e4330e589a3aec", "spotName": "Cabretta Island" },
+      { "_id": "5eca010741e4330e589a3b11", "spotName": "Blackbeard Island" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e014",
+    "country": "Australia",
+    "region": "Victoria",
+    "area": "Surf Coast",
+    "slug": "surf-coast",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3877", "spotName": "Winkipop" },
+      { "_id": "5eca010741e4330e589a3a2b", "spotName": "Jan Juc" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e012",
+    "country": "Costa Rica",
+    "region": "Provincia de Guanacaste",
+    "area": "Carrillo",
+    "slug": "carrillo",
+    "spots": [{ "_id": "5eca010741e4330e589a3876", "spotName": "Witches Rock" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e013",
+    "country": "Puerto Rico",
+    "region": "Aguadilla",
+    "area": "Corrales Barrio",
+    "slug": "corrales-barrio",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3879", "spotName": "Wishing Well" },
+      { "_id": "5eca010741e4330e589a387c", "spotName": "Wilderness" },
+      { "_id": "5eca010741e4330e589a3a6a", "spotName": "Gas Chambers (PR)" },
+      { "_id": "5eca010741e4330e589a3ab7", "spotName": "Crash Boat" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e016",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Shellharbour",
+    "slug": "shellharbour",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3878", "spotName": "Windang Island" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e015",
+    "country": "United States",
+    "region": "California",
+    "area": "San Diego",
+    "slug": "san-diego",
+    "spots": [
+      { "_id": "5eca010741e4330e589a387a", "spotName": "Windansea" },
+      { "_id": "5eca010741e4330e589a38af", "spotName": "Tijuana Slough" },
+      { "_id": "5eca010741e4330e589a38c2", "spotName": "Terra Mar Point" },
+      { "_id": "5eca010741e4330e589a38c8", "spotName": "Tamarack" },
+      { "_id": "5eca010741e4330e589a38cf", "spotName": "Swami's" },
+      { "_id": "5eca010741e4330e589a38db", "spotName": "Sunset Cliffs" },
+      { "_id": "5eca010741e4330e589a3910", "spotName": "Seaside Reef" },
+      { "_id": "5eca010741e4330e589a3919", "spotName": "Scripps" },
+      { "_id": "5eca010741e4330e589a395e", "spotName": "Ponto Jetties" },
+      { "_id": "5eca010741e4330e589a3990", "spotName": "Pacific Beach" },
+      { "_id": "5eca010741e4330e589a3999", "spotName": "PB Point" },
+      {
+        "_id": "5eca010741e4330e589a399c",
+        "spotName": "Old Man's at Tourmaline"
+      },
+      {
+        "_id": "5eca010741e4330e589a39a4",
+        "spotName": "Ocean Beach (San Diego)"
+      },
+      {
+        "_id": "5eca010741e4330e589a39a3",
+        "spotName": "Oceanside Pier, Northside"
+      },
+      { "_id": "5eca010741e4330e589a39d2", "spotName": "Mission Beach" },
+      { "_id": "5eca010741e4330e589a3a11", "spotName": "La Jolla Shores" },
+      {
+        "_id": "5eca010741e4330e589a3a3c",
+        "spotName": "Imperial Pier, Southside"
+      },
+      {
+        "_id": "5eca010741e4330e589a3a3d",
+        "spotName": "Imperial Pier, Northside"
+      },
+      { "_id": "5eca010741e4330e589a3a45", "spotName": "Horseshoe" },
+      { "_id": "5eca010741e4330e589a3a5f", "spotName": "Grandview" },
+      { "_id": "5eca010741e4330e589a3aa4", "spotName": "Del Mar Rivermouth" },
+      { "_id": "5eca010741e4330e589a3aa5", "spotName": "Del Mar Beachbreak" },
+      { "_id": "5eca010741e4330e589a3aac", "spotName": "D Street" },
+      { "_id": "5eca010741e4330e589a3abd", "spotName": "Coronado Beach" },
+      { "_id": "5eca010741e4330e589a3ad9", "spotName": "Cardiff Reef" },
+      { "_id": "5eca010741e4330e589a3b10", "spotName": "Blacks" },
+      { "_id": "5eca010741e4330e589a3b15", "spotName": "Birdrock" },
+      { "_id": "5eca010741e4330e589a3b1f", "spotName": "Beacons" },
+      { "_id": "5eca010741e4330e589a3b5a", "spotName": "15th St." }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e017",
+    "country": "United States",
+    "region": "California",
+    "area": "Monterey County",
+    "slug": "monterey-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a387b", "spotName": "Willow Creek" },
+      { "_id": "5eca010741e4330e589a392b", "spotName": "Sand Dollar Beach" },
+      { "_id": "5eca010741e4330e589a39c3", "spotName": "Moss Landing" },
+      { "_id": "5eca010741e4330e589a39cb", "spotName": "Mole Point" },
+      { "_id": "5eca010741e4330e589a39db", "spotName": "Marina State Beach" },
+      { "_id": "5eca010741e4330e589a39ef", "spotName": "Lover's Point" },
+      { "_id": "5eca010741e4330e589a3a68", "spotName": "Ghost Tree" },
+      { "_id": "5eca010741e4330e589a3ad7", "spotName": "Carmel Beach" },
+      { "_id": "5eca010741e4330e589a3b02", "spotName": "Boneyard" },
+      { "_id": "5eca010741e4330e589a3b16", "spotName": "Big Sur Rivermouth" },
+      { "_id": "5eca010741e4330e589a3b2f", "spotName": "Asilomar" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e018",
+    "country": "United States",
+    "region": "South Carolina",
+    "area": "Charleston County",
+    "slug": "charleston-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a387e", "spotName": "Wild Dunes" },
+      { "_id": "5eca010741e4330e589a38bc", "spotName": "The Pier/Windjammer" },
+      { "_id": "5eca010741e4330e589a39a9", "spotName": "North Washout" },
+      {
+        "_id": "5eca010741e4330e589a3a1b",
+        "spotName": "Kiawah Island/Seabrook Island"
+      },
+      {
+        "_id": "5eca010741e4330e589a3a79",
+        "spotName": "Folly Beach Pier Southside"
+      },
+      {
+        "_id": "5eca010741e4330e589a3a7c",
+        "spotName": "Folly Beach Pier Northside"
+      },
+      { "_id": "5eca010741e4330e589a3aa2", "spotName": "Dewees Island" },
+      { "_id": "5eca010741e4330e589a3adc", "spotName": "Cape Romain" },
+      { "_id": "5eca010741e4330e589a3af3", "spotName": "Bull Island" },
+      { "_id": "5eca010741e4330e589a3b1d", "spotName": "Bert's Bar" },
+      { "_id": "5eca010741e4330e589a3b5e", "spotName": "10th Street" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e019",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Manatee County",
+    "slug": "manatee-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a387d", "spotName": "Whitney Beach" },
+      { "_id": "5eca010741e4330e589a389d", "spotName": "Twin Piers" },
+      { "_id": "5eca010741e4330e589a3a47", "spotName": "Holmes Beach Pier" },
+      { "_id": "5eca010741e4330e589a3ad3", "spotName": "Coquina Jetties" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e01a",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Walton County",
+    "slug": "walton-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a387f", "spotName": "Whale's Tail" },
+      { "_id": "5eca010741e4330e589a3912", "spotName": "Seascape" },
+      { "_id": "5eca010741e4330e589a3a5c", "spotName": "Grayton Beach" },
+      { "_id": "5eca010741e4330e589a3af4", "spotName": "Bud and Alley's" },
+      { "_id": "5eca010741e4330e589a3b0a", "spotName": "Blue Mountain Beach" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e01b",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Palm Beach",
+    "slug": "palm-beach",
+    "spots": [{ "_id": "5eca010741e4330e589a3880", "spotName": "Whale Beach" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e01c",
+    "country": "United States",
+    "region": "California",
+    "area": "Mendocino County",
+    "slug": "mendocino-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3881", "spotName": "Westport" },
+      { "_id": "5eca010741e4330e589a3969", "spotName": "Point Arena" },
+      { "_id": "5eca010741e4330e589a39d5", "spotName": "Mendocino Township" },
+      { "_id": "5eca010741e4330e589a39f0", "spotName": "MacKerricher" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e01e",
+    "country": "United States",
+    "region": "California",
+    "area": "Humboldt County",
+    "slug": "humboldt-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3883", "spotName": "Westhaven" },
+      { "_id": "5eca010741e4330e589a390b", "spotName": "Shelter Cove" },
+      { "_id": "5eca010741e4330e589a398a", "spotName": "Patricks Point" },
+      { "_id": "5eca010741e4330e589a39ad", "spotName": "North Jetty" },
+      {
+        "_id": "5eca010741e4330e589a3a3f",
+        "spotName": "Humboldt Harbor Entrance"
+      }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e01d",
+    "country": "United States",
+    "region": "Washington",
+    "area": "Grays Harbor County",
+    "slug": "grays-harbor-county",
+    "spots": [
+      {
+        "_id": "5eca010741e4330e589a3882",
+        "spotName": "Westport/Olympic Peninsula"
+      }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e00d",
+    "country": "Mexico",
+    "region": "Baja California Sur",
+    "area": "Los Cabos Municipality",
+    "slug": "los-cabos-municipality",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3884", "spotName": "Zippers" },
+      { "_id": "5eca010741e4330e589a38b5", "spotName": "The Rock" },
+      { "_id": "5eca010741e4330e589a38bf", "spotName": "The Estuary" },
+      { "_id": "5eca010741e4330e589a3909", "spotName": "Shipwreck" },
+      { "_id": "5eca010741e4330e589a399b", "spotName": "Old Man's" },
+      { "_id": "5eca010741e4330e589a39b0", "spotName": "Nine Palms" },
+      { "_id": "5eca010741e4330e589a39c7", "spotName": "Monuments" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e020",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Gerringong",
+    "slug": "gerringong",
+    "spots": [{ "_id": "5eca010741e4330e589a3885", "spotName": "Werri Beach" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e01f",
+    "country": "United States",
+    "region": "Texas",
+    "area": "Galveston County",
+    "slug": "galveston-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3886", "spotName": "West Galveston" },
+      { "_id": "5eca010741e4330e589a39d6", "spotName": "Meacom's Pier" },
+      { "_id": "5eca010741e4330e589a3a80", "spotName": "Flagship" },
+      { "_id": "5eca010741e4330e589a3ab1", "spotName": "Crystal Beach" },
+      { "_id": "5eca010741e4330e589a3b3c", "spotName": "A-Frames" },
+      { "_id": "5eca010741e4330e589a3b46", "spotName": "61st Street" },
+      { "_id": "5eca010741e4330e589a3b47", "spotName": "51st Street" },
+      { "_id": "5eca010741e4330e589a3b49", "spotName": "37th Street" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e024",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Martin County",
+    "slug": "martin-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3888", "spotName": "Walton Rocks" },
+      { "_id": "5eca010741e4330e589a38e2", "spotName": "Stuart Public Beach" },
+      { "_id": "5eca010741e4330e589a3a28", "spotName": "Jensen Beach" },
+      {
+        "_id": "5eca010741e4330e589a3a48",
+        "spotName": "Hobe Sound Public Beach"
+      },
+      { "_id": "5eca010741e4330e589a3a7d", "spotName": "Fletcher's" },
+      { "_id": "5eca010741e4330e589a3b0c", "spotName": "Blowing Rocks" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e026",
+    "country": "United States",
+    "region": "Hawaii",
+    "area": "Oahu",
+    "slug": "oahu",
+    "spots": [
+      { "_id": "5eca010741e4330e589a388a", "spotName": "Waimea Bay" },
+      { "_id": "5eca010741e4330e589a38b0", "spotName": "Three's" },
+      { "_id": "5eca010741e4330e589a38dc", "spotName": "Sunset Beach" },
+      {
+        "_id": "5eca010741e4330e589a390a",
+        "spotName": "South Shore - Ala Moana Park"
+      },
+      { "_id": "5eca010741e4330e589a393b", "spotName": "Rocky Point" },
+      { "_id": "5eca010741e4330e589a393f", "spotName": "Rockpile" },
+      { "_id": "5eca010741e4330e589a3952", "spotName": "Queen's" },
+      { "_id": "5eca010741e4330e589a3954", "spotName": "Publics" },
+      { "_id": "5eca010741e4330e589a395c", "spotName": "Populars" },
+      { "_id": "5eca010741e4330e589a3978", "spotName": "Pipeline" },
+      { "_id": "5eca010741e4330e589a399f", "spotName": "Off-The-Wall" },
+      { "_id": "5eca010741e4330e589a39e8", "spotName": "Makapu'u" },
+      { "_id": "5eca010741e4330e589a39f7", "spotName": "Log Cabins" },
+      { "_id": "5eca010741e4330e589a3a08", "spotName": "Laniakea" },
+      { "_id": "5eca010741e4330e589a3a1e", "spotName": "Kaiser's" },
+      { "_id": "5eca010741e4330e589a3a1d", "spotName": "Kaena Point" },
+      { "_id": "5eca010741e4330e589a3a22", "spotName": "Jocko's" },
+      { "_id": "5eca010741e4330e589a3a40", "spotName": "Hultin's" },
+      { "_id": "5eca010741e4330e589a3a69", "spotName": "Gas Chambers" },
+      { "_id": "5eca010741e4330e589a3a75", "spotName": "Four's" },
+      { "_id": "5eca010741e4330e589a3a9f", "spotName": "Diamond Head" },
+      { "_id": "5eca010741e4330e589a3aca", "spotName": "Chun's" },
+      { "_id": "5eca010741e4330e589a3add", "spotName": "Canoes" },
+      { "_id": "5eca010741e4330e589a3b14", "spotName": "Black Point" },
+      { "_id": "5eca010741e4330e589a3b23", "spotName": "Backdoor" },
+      { "_id": "5eca010741e4330e589a3b39", "spotName": "Ala Moana Bowls" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e022",
+    "country": "United States",
+    "region": "North Carolina",
+    "area": "Dare County",
+    "slug": "dare-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3889", "spotName": "Waves and Salvo" },
+      { "_id": "5eca010741e4330e589a3932", "spotName": "S-Turns" },
+      { "_id": "5eca010741e4330e589a3987", "spotName": "Pea Island" },
+      {
+        "_id": "5eca010741e4330e589a3997",
+        "spotName": "Old Station/Laundromats"
+      },
+      { "_id": "5eca010741e4330e589a39a1", "spotName": "Ocracoke" },
+      { "_id": "5eca010741e4330e589a39bd", "spotName": "Nags Head Pier" },
+      { "_id": "5eca010741e4330e589a3a16", "spotName": "Kitty Hawk Pier" },
+      { "_id": "5eca010741e4330e589a3a71", "spotName": "Frisco Pier" },
+      { "_id": "5eca010741e4330e589a3a96", "spotName": "Duck Pier" },
+      {
+        "_id": "5eca010741e4330e589a3adf",
+        "spotName": "Cape Hatteras Lighthouse"
+      },
+      { "_id": "5eca010741e4330e589a3b25", "spotName": "Avon Pier" },
+      { "_id": "5eca010741e4330e589a3b29", "spotName": "Avalon Pier" },
+      { "_id": "5eca010741e4330e589a3b45", "spotName": "3rd St." },
+      { "_id": "5eca010741e4330e589a3b51", "spotName": "1st St." }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e021",
+    "country": "United States",
+    "region": "Maine",
+    "area": "York County",
+    "slug": "york-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3887", "spotName": "Wells Beach" },
+      { "_id": "5eca010741e4330e589a3905", "spotName": "Short Sands Beach" },
+      { "_id": "5eca010741e4330e589a399a", "spotName": "Old Orchard Beach" },
+      { "_id": "5eca010741e4330e589a399d", "spotName": "Ogunquit" },
+      { "_id": "5eca010741e4330e589a39f1", "spotName": "Long Sands Beach" },
+      { "_id": "5eca010741e4330e589a3a61", "spotName": "Gooch's Beach" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e025",
+    "country": "Australia",
+    "region": "South Australia",
+    "area": "Victor Harbor",
+    "slug": "victor-harbor",
+    "spots": [{ "_id": "5eca010741e4330e589a388b", "spotName": "Waitpinga" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e023",
+    "country": "Australia",
+    "region": "Western Australia",
+    "area": "Carnarvon",
+    "slug": "carnarvon",
+    "spots": [
+      { "_id": "5eca010741e4330e589a388c", "spotName": "Warroora Station" },
+      { "_id": "5eca010741e4330e589a38ab", "spotName": "Tombstones" },
+      { "_id": "5eca010741e4330e589a38c5", "spotName": "The Bluff" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e028",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Indian River County",
+    "slug": "indian-river-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a388d", "spotName": "Wabasso" },
+      { "_id": "5eca010741e4330e589a3890", "spotName": "Vero Pier" },
+      { "_id": "5eca010741e4330e589a3945", "spotName": "Riomar" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e027",
+    "country": "United States",
+    "region": "California",
+    "area": "Santa Cruz County",
+    "slug": "santa-cruz-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a388e", "spotName": "Waddell Creek" },
+      { "_id": "5eca010741e4330e589a38c0", "spotName": "The Harbor" },
+      { "_id": "5eca010741e4330e589a391a", "spotName": "Scott Creek" },
+      { "_id": "5eca010741e4330e589a3967", "spotName": "Pleasure Point" },
+      { "_id": "5eca010741e4330e589a39b8", "spotName": "Natural Bridges" },
+      { "_id": "5eca010741e4330e589a39cc", "spotName": "Mitchell's Cove" },
+      { "_id": "5eca010741e4330e589a39e4", "spotName": "Manresa" },
+      { "_id": "5eca010741e4330e589a3a2f", "spotName": "Jack's" },
+      { "_id": "5eca010741e4330e589a3a74", "spotName": "Four Mile" },
+      { "_id": "5eca010741e4330e589a3aa9", "spotName": "Davenport" },
+      { "_id": "5eca010741e4330e589a3ab8", "spotName": "Cowells" },
+      { "_id": "5eca010741e4330e589a3aba", "spotName": "Steamer Lane" },
+      { "_id": "5eca010741e4330e589a3b53", "spotName": "26th Ave" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e029",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Duval County",
+    "slug": "duval-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a388f", "spotName": "Vilano" },
+      { "_id": "5eca010741e4330e589a38cb", "spotName": "Talbot Island" },
+      { "_id": "5eca010741e4330e589a39d4", "spotName": "Middles (Florida)" },
+      { "_id": "5eca010741e4330e589a39d7", "spotName": "Mayport Poles" },
+      { "_id": "5eca010741e4330e589a39da", "spotName": "Matanzas Inlet" },
+      { "_id": "5eca010741e4330e589a39ed", "spotName": "Main Beach (Florida)" },
+      {
+        "_id": "5eca010741e4330e589a3a2d",
+        "spotName": "Jacksonville Beach Pier"
+      },
+      {
+        "_id": "5eca010741e4330e589a3a41",
+        "spotName": "Huguenot Park (North Jetty)"
+      },
+      { "_id": "5eca010741e4330e589a3a66", "spotName": "Gate Station" },
+      {
+        "_id": "5eca010741e4330e589a3a6e",
+        "spotName": "Ft. Clinch State Park"
+      },
+      { "_id": "5eca010741e4330e589a3ab4", "spotName": "Crossroads" },
+      { "_id": "5eca010741e4330e589a3b08", "spotName": "Blue Roofs" },
+      {
+        "_id": "5eca010741e4330e589a3b2a",
+        "spotName": "Atlantic Beach (Florida)"
+      },
+      {
+        "_id": "5eca010741e4330e589a3b37",
+        "spotName": "Anastasia Park (The Entrance)"
+      },
+      { "_id": "5eca010741e4330e589a3b56", "spotName": "18th Street" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e02a",
+    "country": "United States",
+    "region": "California",
+    "area": "Ventura County",
+    "slug": "ventura-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3891", "spotName": "Ventura Overhead" },
+      { "_id": "5eca010741e4330e589a3892", "spotName": "Ventura Harbor" },
+      { "_id": "5eca010741e4330e589a38de", "spotName": "Summer Beach" },
+      { "_id": "5eca010741e4330e589a3903", "spotName": "Solimar" },
+      { "_id": "5eca010741e4330e589a3974", "spotName": "Pitas Point" },
+      { "_id": "5eca010741e4330e589a3993", "spotName": "Oxnard" },
+      {
+        "_id": "5eca010741e4330e589a3a64",
+        "spotName": "Gold Coast Beachbreaks"
+      },
+      { "_id": "5eca010741e4330e589a3a8b", "spotName": "Emma Wood" },
+      { "_id": "5eca010741e4330e589a3af0", "spotName": "C St." }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e02b",
+    "country": "United States",
+    "region": "New Jersey",
+    "area": "Atlantic County",
+    "slug": "atlantic-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3894", "spotName": "Ventnor Pier" },
+      { "_id": "5eca010741e4330e589a38e0", "spotName": "Sumner Avenue" },
+      { "_id": "5eca010741e4330e589a38ea", "spotName": "States Avenue" },
+      {
+        "_id": "5eca010741e4330e589a38fc",
+        "spotName": "South Carolina Avenue"
+      },
+      {
+        "_id": "5eca010741e4330e589a39de",
+        "spotName": "Margate Pier Northside"
+      },
+      { "_id": "5eca010741e4330e589a3ab2", "spotName": "Crystals" },
+      { "_id": "5eca010741e4330e589a3af9", "spotName": "Brigantine Jetty" },
+      { "_id": "5eca010741e4330e589a3b4c", "spotName": "32nd Street" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e02c",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Sarasota County",
+    "slug": "sarasota-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3893", "spotName": "Venice Jetties North" },
+      { "_id": "5eca010741e4330e589a3897", "spotName": "Venice Pier" },
+      { "_id": "5eca010741e4330e589a3898", "spotName": "Venice Jetties South" },
+      { "_id": "5eca010741e4330e589a38a0", "spotName": "Turtles" },
+      { "_id": "5eca010741e4330e589a38e9", "spotName": "Stickney Point" },
+      { "_id": "5eca010741e4330e589a3906", "spotName": "Siesta Key" },
+      { "_id": "5eca010741e4330e589a39fc", "spotName": "Lido Beach (Florida)" },
+      { "_id": "5eca010741e4330e589a3a87", "spotName": "Englewood" },
+      { "_id": "5eca010741e4330e589a3ac7", "spotName": "Coolidge" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e02d",
+    "country": "United States",
+    "region": "California",
+    "area": "Orange County",
+    "slug": "orange-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3896", "spotName": "Upper Trestles" },
+      { "_id": "5eca010741e4330e589a38a4", "spotName": "Trails" },
+      { "_id": "5eca010741e4330e589a38b1", "spotName": "The Wedge" },
+      {
+        "_id": "5eca010741e4330e589a38ba",
+        "spotName": "The Point at San Onofre"
+      },
+      { "_id": "5eca010741e4330e589a38c7", "spotName": "Thalia Street" },
+      { "_id": "5eca010741e4330e589a38cd", "spotName": "T-Street" },
+      {
+        "_id": "5eca010741e4330e589a38d0",
+        "spotName": "Surfside (Seal Beach)"
+      },
+      { "_id": "5eca010741e4330e589a38e5", "spotName": "Strands" },
+      {
+        "_id": "5eca010741e4330e589a3913",
+        "spotName": "Seal Beach Pier, Southside"
+      },
+      { "_id": "5eca010741e4330e589a3915", "spotName": "Seal Beach Jetty" },
+      {
+        "_id": "5eca010741e4330e589a392f",
+        "spotName": "San Clemente State Beach"
+      },
+      {
+        "_id": "5eca010741e4330e589a3931",
+        "spotName": "San Clemente Pier, Southside"
+      },
+      {
+        "_id": "5eca010741e4330e589a393d",
+        "spotName": "Rockpile (Laguna Beach)"
+      },
+      { "_id": "5eca010741e4330e589a393c", "spotName": "Salt Creek" },
+      { "_id": "5eca010741e4330e589a3943", "spotName": "River Jetties" },
+      { "_id": "5eca010741e4330e589a39b4", "spotName": "Newport Point" },
+      { "_id": "5eca010741e4330e589a39b5", "spotName": "Newport Jetties" },
+      { "_id": "5eca010741e4330e589a39cf", "spotName": "Middles (Trestles)" },
+      { "_id": "5eca010741e4330e589a39f4", "spotName": "Lower Trestles" },
+      { "_id": "5eca010741e4330e589a3a56", "spotName": "HB Southside" },
+      { "_id": "5eca010741e4330e589a3a57", "spotName": "HB Pier, Northside" },
+      { "_id": "5eca010741e4330e589a3a60", "spotName": "Goldenwest" },
+      { "_id": "5eca010741e4330e589a3a9a", "spotName": "Doheny State Beach" },
+      { "_id": "5eca010741e4330e589a3abe", "spotName": "Cottons" },
+      { "_id": "5eca010741e4330e589a3ac0", "spotName": "Corona del Mar" },
+      { "_id": "5eca010741e4330e589a3ac8", "spotName": "Church" },
+      { "_id": "5eca010741e4330e589a3af5", "spotName": "Brooks Street" },
+      { "_id": "5eca010741e4330e589a3b38", "spotName": "Aliso Creek" },
+      { "_id": "5eca010741e4330e589a3b35", "spotName": "Anderson St." },
+      { "_id": "5eca010741e4330e589a3b4b", "spotName": "36th St." },
+      { "_id": "5eca010741e4330e589a3b58", "spotName": "17th St." }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e02f",
+    "country": "Indonesia",
+    "region": "Bali",
+    "area": "Bali",
+    "slug": "bali",
+    "spots": [
+      { "_id": "5eca010741e4330e589a389a", "spotName": "Uluwatu" },
+      { "_id": "5eca010741e4330e589a3a15", "spotName": "Kuta" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e02e",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Pinellas County",
+    "slug": "pinellas-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3899", "spotName": "Upham Beach Park" },
+      {
+        "_id": "5eca010741e4330e589a38da",
+        "spotName": "Sunset Beach (Florida)"
+      },
+      { "_id": "5eca010741e4330e589a392a", "spotName": "Sand Key" },
+      { "_id": "5eca010741e4330e589a394b", "spotName": "Redington Pier" },
+      { "_id": "5eca010741e4330e589a394d", "spotName": "Redington Breakwater" },
+      { "_id": "5eca010741e4330e589a397a", "spotName": "Pier 60" },
+      { "_id": "5eca010741e4330e589a39d3", "spotName": "Middle Jetty" },
+      { "_id": "5eca010741e4330e589a3a38", "spotName": "Indian Rocks Beach" },
+      { "_id": "5eca010741e4330e589a3b1c", "spotName": "Belleair" },
+      { "_id": "5eca010741e4330e589a3b40", "spotName": "880" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e032",
+    "country": "Australia",
+    "region": "Victoria",
+    "area": "Warrnambool City",
+    "slug": "warrnambool-city",
+    "spots": [
+      { "_id": "5eca010741e4330e589a389c", "spotName": "Two Mile/Easter Reef" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e031",
+    "country": "United States",
+    "region": "Georgia",
+    "area": "Chatham County",
+    "slug": "chatham-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a389b", "spotName": "Tybee Island Pier" },
+      { "_id": "5eca010741e4330e589a38df", "spotName": "Sugar Shack" },
+      { "_id": "5eca010741e4330e589a38f4", "spotName": "South Tybee Sandbars" },
+      { "_id": "5eca010741e4330e589a3994", "spotName": "Ossabaw Island" },
+      { "_id": "5eca010741e4330e589a39f9", "spotName": "Little Tybee Island" },
+      { "_id": "5eca010741e4330e589a3b59", "spotName": "18th St. Jetty" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e033",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Okaloosa County",
+    "slug": "okaloosa-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a389e", "spotName": "Two By Fours" },
+      { "_id": "5eca010741e4330e589a38b8", "spotName": "The Pumphouse" },
+      { "_id": "5eca010741e4330e589a38c6", "spotName": "The Back Porch" },
+      { "_id": "5eca010741e4330e589a3962", "spotName": "Pompano Joe's" },
+      { "_id": "5eca010741e4330e589a39be", "spotName": "NCO Club" },
+      { "_id": "5eca010741e4330e589a3a24", "spotName": "Jetty East" },
+      { "_id": "5eca010741e4330e589a3a55", "spotName": "HMO's" },
+      { "_id": "5eca010741e4330e589a3aaa", "spotName": "Dead Man's" },
+      { "_id": "5eca010741e4330e589a3b0b", "spotName": "Blue Horizon Motel" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e034",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Lee County",
+    "slug": "lee-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a389f", "spotName": "Tween Waters" },
+      { "_id": "5eca010741e4330e589a394c", "spotName": "Redfish Pass" },
+      { "_id": "5eca010741e4330e589a3a67", "spotName": "Gasparilla Point" },
+      { "_id": "5eca010741e4330e589a3b04", "spotName": "Boca Grande" },
+      { "_id": "5eca010741e4330e589a3b0e", "spotName": "Blind Pass" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e036",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Great Lakes",
+    "slug": "great-lakes",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38a1", "spotName": "Tuncurry Breakwall" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e035",
+    "country": "United States",
+    "region": "California",
+    "area": "San Mateo County",
+    "slug": "san-mateo-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38a3", "spotName": "Tunitas Creek" },
+      { "_id": "5eca010741e4330e589a390e", "spotName": "Sharp Park" },
+      { "_id": "5eca010741e4330e589a393e", "spotName": "Rockaway" },
+      { "_id": "5eca010741e4330e589a3957", "spotName": "Princeton Jetty" },
+      { "_id": "5eca010741e4330e589a3979", "spotName": "Pigeon Point" },
+      { "_id": "5eca010741e4330e589a397f", "spotName": "Pescadero" },
+      { "_id": "5eca010741e4330e589a3985", "spotName": "Pedro Point" },
+      { "_id": "5eca010741e4330e589a39c9", "spotName": "Montara" },
+      { "_id": "5eca010741e4330e589a39d9", "spotName": "Maverick's" },
+      { "_id": "5eca010741e4330e589a3a53", "spotName": "Half Moon Bay" },
+      { "_id": "5eca010741e4330e589a3b3a", "spotName": "Ano Nuevo" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e037",
+    "country": "Ireland",
+    "region": "Ulster",
+    "area": "Donegal",
+    "slug": "donegal",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38a2", "spotName": "Tullan Strand" },
+      { "_id": "5eca010741e4330e589a3939", "spotName": "Rossnowlagh" },
+      { "_id": "5eca010741e4330e589a3af2", "spotName": "Bundoran" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e038",
+    "country": "Puerto Rico",
+    "region": "Rincón Municipio",
+    "area": "Rincón Barrio-Pueblo",
+    "slug": "rincon-barrio-pueblo",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38a5", "spotName": "Tres Palmas" },
+      { "_id": "5eca010741e4330e589a38b9", "spotName": "The Point" },
+      { "_id": "5eca010741e4330e589a3927", "spotName": "Sandy Beach" },
+      { "_id": "5eca010741e4330e589a3953", "spotName": "Puntas" },
+      { "_id": "5eca010741e4330e589a395d", "spotName": "Pools" },
+      { "_id": "5eca010741e4330e589a39df", "spotName": "Maria's" },
+      { "_id": "5eca010741e4330e589a39f8", "spotName": "Little Malibu" },
+      { "_id": "5eca010741e4330e589a3a37", "spotName": "Indicators" },
+      { "_id": "5eca010741e4330e589a3a97", "spotName": "Domes" },
+      { "_id": "5eca010741e4330e589a3b31", "spotName": "Antonio's" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e03a",
+    "country": "United States",
+    "region": "North Carolina",
+    "area": "Pender County",
+    "slug": "pender-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38a6", "spotName": "Topsail Beach" },
+      { "_id": "5eca010741e4330e589a38d4", "spotName": "Surf City Pier" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e039",
+    "country": "United States",
+    "region": "New York",
+    "area": "Suffolk County",
+    "slug": "suffolk-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38a7", "spotName": "Trailer Park" },
+      { "_id": "5eca010741e4330e589a38c1", "spotName": "Terrace" },
+      { "_id": "5eca010741e4330e589a38c4", "spotName": "The Bowl" },
+      { "_id": "5eca010741e4330e589a3941", "spotName": "Robert Moses" },
+      { "_id": "5eca010741e4330e589a3961", "spotName": "Poles" },
+      { "_id": "5eca010741e4330e589a398b", "spotName": "Park Line" },
+      { "_id": "5eca010741e4330e589a39ec", "spotName": "Main Beach" },
+      { "_id": "5eca010741e4330e589a3a1c", "spotName": "K Road" },
+      { "_id": "5eca010741e4330e589a3a63", "spotName": "Gilgo Beach" },
+      { "_id": "5eca010741e4330e589a3a7a", "spotName": "Flys" },
+      { "_id": "5eca010741e4330e589a3a86", "spotName": "Fire Island" },
+      { "_id": "5eca010741e4330e589a3a9e", "spotName": "Ditch Plains" },
+      { "_id": "5eca010741e4330e589a3aaf", "spotName": "Cupsogue" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e030",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Shoalhaven Shire",
+    "slug": "shoalhaven-shire",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38aa", "spotName": "Ulladulla Bommie" },
+      { "_id": "5eca010741e4330e589a3a5b", "spotName": "Green Island" },
+      { "_id": "5eca010741e4330e589a3a62", "spotName": "Golf Course Reef" },
+      { "_id": "5eca010741e4330e589a3b12", "spotName": "Black Rock" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e03b",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Gulf County",
+    "slug": "gulf-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38ac", "spotName": "Toilet Bowls" },
+      { "_id": "5eca010741e4330e589a3ada", "spotName": "Cape San Blas" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e03c",
+    "country": "Mexico",
+    "region": "Baja California",
+    "area": "Ensenada Municipality",
+    "slug": "ensenada-municipality",
+    "spots": [
+      {
+        "_id": "5eca010741e4330e589a38ae",
+        "spotName": "Todos Santos / Killers"
+      },
+      { "_id": "5eca010741e4330e589a392c", "spotName": "San Miguel" },
+      { "_id": "5eca010741e4330e589a3933", "spotName": "Salsipuedes" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e03d",
+    "country": "Puerto Rico",
+    "region": "Canóvanas Municipio",
+    "area": "Torrecilla Alta Barrio",
+    "slug": "torrecilla-alta-barrio",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38ad", "spotName": "Tocones" },
+      { "_id": "5eca010741e4330e589a3b26", "spotName": "Aviones" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e040",
+    "country": "United States",
+    "region": "South Carolina",
+    "area": "Georgetown County",
+    "slug": "georgetown-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38b2", "spotName": "The South End" },
+      { "_id": "5eca010741e4330e589a38b7", "spotName": "The Pier" },
+      { "_id": "5eca010741e4330e589a38f8", "spotName": "South Jetty" },
+      { "_id": "5eca010741e4330e589a38f9", "spotName": "South Litchfield" },
+      { "_id": "5eca010741e4330e589a38fb", "spotName": "South Island" },
+      { "_id": "5eca010741e4330e589a39aa", "spotName": "North Island" },
+      { "_id": "5eca010741e4330e589a39ac", "spotName": "North End" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e03e",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Collier County",
+    "slug": "collier-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38b3", "spotName": "The Wall (Florida)" },
+      { "_id": "5eca010741e4330e589a39bb", "spotName": "Naples Pier" },
+      { "_id": "5eca010741e4330e589a3a9c", "spotName": "Doctor's Pass" },
+      {
+        "_id": "5eca010741e4330e589a3a9d",
+        "spotName": "Doctor's Pass (South Jetty)"
+      }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e03f",
+    "country": "United States",
+    "region": "New Hampshire",
+    "area": "Rockingham County",
+    "slug": "rockingham-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38b4", "spotName": "The Wall" },
+      { "_id": "5eca010741e4330e589a38bd", "spotName": "The Main Beach" },
+      { "_id": "5eca010741e4330e589a3917", "spotName": "Seabrook" },
+      { "_id": "5eca010741e4330e589a391e", "spotName": "Sawyer's Beach" },
+      {
+        "_id": "5eca010741e4330e589a3936",
+        "spotName": "Rye on the Rocks / 5-0's"
+      },
+      { "_id": "5eca010741e4330e589a3975", "spotName": "Plaice Cove" },
+      { "_id": "5eca010741e4330e589a3a73", "spotName": "Fox Hill" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e041",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Brevard County",
+    "slug": "brevard-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38b6", "spotName": "The Radisson" },
+      { "_id": "5eca010741e4330e589a38f2", "spotName": "Spessard Holland" },
+      { "_id": "5eca010741e4330e589a38f5", "spotName": "Spanish House" },
+      { "_id": "5eca010741e4330e589a390f", "spotName": "Sebastian Inlet" },
+      { "_id": "5eca010741e4330e589a394e", "spotName": "RC's" },
+      { "_id": "5eca010741e4330e589a396a", "spotName": "Playalinda" },
+      { "_id": "5eca010741e4330e589a397e", "spotName": "Picnic Tables" },
+      { "_id": "5eca010741e4330e589a3980", "spotName": "Perkins" },
+      { "_id": "5eca010741e4330e589a39f3", "spotName": "Lori Wilson Park" },
+      { "_id": "5eca010741e4330e589a3a23", "spotName": "Jetty Park" },
+      { "_id": "5eca010741e4330e589a3a25", "spotName": "Kennedy Space Center" },
+      {
+        "_id": "5eca010741e4330e589a3a3a",
+        "spotName": "Indialantic Boardwalk"
+      },
+      { "_id": "5eca010741e4330e589a3ac9", "spotName": "Cocoa Beach Pier" },
+      { "_id": "5eca010741e4330e589a3b01", "spotName": "Bonsteel Park" },
+      { "_id": "5eca010741e4330e589a3b4f", "spotName": "2nd Light" },
+      { "_id": "5eca010741e4330e589a3b57", "spotName": "16th St. South" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e042",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Byron Shire",
+    "slug": "byron-shire",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38bb", "spotName": "The Pass, Byron Bay" },
+      { "_id": "5eca010741e4330e589a38ce", "spotName": "Tallows" },
+      { "_id": "5eca010741e4330e589a3af8", "spotName": "Broken Head" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e043",
+    "country": "United States",
+    "region": "New Jersey",
+    "area": "Cape May County",
+    "slug": "cape-may-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38be", "spotName": "The Cove" },
+      { "_id": "5eca010741e4330e589a38e6", "spotName": "Stockton Avenue" },
+      { "_id": "5eca010741e4330e589a3950", "spotName": "Queen Street" },
+      { "_id": "5eca010741e4330e589a3959", "spotName": "Poverty Beach" },
+      { "_id": "5eca010741e4330e589a39a8", "spotName": "Nun's Beach" },
+      { "_id": "5eca010741e4330e589a3a5d", "spotName": "Grant Street Beach" },
+      { "_id": "5eca010741e4330e589a3af7", "spotName": "Broadway Beach" },
+      { "_id": "5eca010741e4330e589a3b42", "spotName": "7th Street" },
+      {
+        "_id": "5eca010741e4330e589a3b4a",
+        "spotName": "36th Street to 42nd Street"
+      },
+      {
+        "_id": "5eca010741e4330e589a3b50",
+        "spotName": "26th to 30th Street Pier"
+      },
+      { "_id": "5eca010741e4330e589a3b55", "spotName": "1st St. (NJ)" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e044",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Palm Beach County",
+    "slug": "palm-beach-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38c3", "spotName": "The Cove (Florida)" },
+      { "_id": "5eca010741e4330e589a38dd", "spotName": "Sunrise" },
+      { "_id": "5eca010741e4330e589a3949", "spotName": "Reef Road" },
+      { "_id": "5eca010741e4330e589a394f", "spotName": "Red Reef Park" },
+      { "_id": "5eca010741e4330e589a3956", "spotName": "Pumphouse" },
+      { "_id": "5eca010741e4330e589a3984", "spotName": "Peanut Island" },
+      { "_id": "5eca010741e4330e589a398d", "spotName": "Palm Beach" },
+      { "_id": "5eca010741e4330e589a39a2", "spotName": "Ocean Reef Park" },
+      { "_id": "5eca010741e4330e589a3a09", "spotName": "Lantana Public Beach" },
+      {
+        "_id": "5eca010741e4330e589a3a0b",
+        "spotName": "Lake Worth Pier Northside"
+      },
+      { "_id": "5eca010741e4330e589a3a18", "spotName": "Kite Beach" },
+      { "_id": "5eca010741e4330e589a3a1f", "spotName": "Jupiter Inlet" },
+      { "_id": "5eca010741e4330e589a3a21", "spotName": "Juno Pier" },
+      { "_id": "5eca010741e4330e589a3a30", "spotName": "Japanese Rock" },
+      {
+        "_id": "5eca010741e4330e589a3a49",
+        "spotName": "Hilton Hotel Backyard"
+      },
+      { "_id": "5eca010741e4330e589a3a7f", "spotName": "Flagpole" },
+      { "_id": "5eca010741e4330e589a3aa3", "spotName": "Delray Beach" },
+      { "_id": "5eca010741e4330e589a3ac5", "spotName": "Corners" },
+      { "_id": "5eca010741e4330e589a3ac6", "spotName": "Coral Cove Park" },
+      { "_id": "5eca010741e4330e589a3acb", "spotName": "Civic Center" },
+      { "_id": "5eca010741e4330e589a3ad1", "spotName": "Charlie's Crab" },
+      {
+        "_id": "5eca010741e4330e589a3afc",
+        "spotName": "Boynton Beach Inlet (Northside)"
+      },
+      {
+        "_id": "5eca010741e4330e589a3b00",
+        "spotName": "Boynton Beach Inlet (Southside)"
+      },
+      { "_id": "5eca010741e4330e589a3aff", "spotName": "Breakers" },
+      { "_id": "5eca010741e4330e589a3b05", "spotName": "Boca Raton Inlet" },
+      { "_id": "5eca010741e4330e589a3b28", "spotName": "Atlantic Dunes Park" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e046",
+    "country": "Costa Rica",
+    "region": "Provincia de Guanacaste",
+    "area": "Santa Cruz",
+    "slug": "santa-cruz",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38c9", "spotName": "Tamarindo" },
+      { "_id": "5eca010741e4330e589a396b", "spotName": "Playa Langosta" },
+      { "_id": "5eca010741e4330e589a3970", "spotName": "Playa Grande" },
+      { "_id": "5eca010741e4330e589a3b2b", "spotName": "Avellanas" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e045",
+    "country": "United States",
+    "region": "California",
+    "area": "Santa Barbara County",
+    "slug": "santa-barbara-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38ca", "spotName": "Tarpits" },
+      { "_id": "5eca010741e4330e589a38d2", "spotName": "Surf Beach" },
+      { "_id": "5eca010741e4330e589a38f6", "spotName": "Stanley's" },
+      { "_id": "5eca010741e4330e589a3926", "spotName": "Sands" },
+      { "_id": "5eca010741e4330e589a3925", "spotName": "Sandspit" },
+      { "_id": "5eca010741e4330e589a3944", "spotName": "Rincon" },
+      { "_id": "5eca010741e4330e589a3946", "spotName": "Refugio" },
+      { "_id": "5eca010741e4330e589a3968", "spotName": "Point Conception" },
+      { "_id": "5eca010741e4330e589a399e", "spotName": "Oil Piers" },
+      { "_id": "5eca010741e4330e589a3a06", "spotName": "Leadbetter Point" },
+      { "_id": "5eca010741e4330e589a3a2c", "spotName": "Jalama" },
+      { "_id": "5eca010741e4330e589a3a52", "spotName": "Hammond's" },
+      { "_id": "5eca010741e4330e589a3a8c", "spotName": "El Capitan" },
+      { "_id": "5eca010741e4330e589a3aa1", "spotName": "Devereux" },
+      {
+        "_id": "5eca010741e4330e589a3ad4",
+        "spotName": "Carpinteria State Beach"
+      },
+      { "_id": "5eca010741e4330e589a3ae7", "spotName": "Campus Point" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e047",
+    "country": "Puerto Rico",
+    "region": "Aguadilla",
+    "area": "Montaña Barrio",
+    "slug": "montana-barrio",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38cc", "spotName": "Table Top" },
+      { "_id": "5eca010741e4330e589a38d5", "spotName": "Surfer's Beach" },
+      { "_id": "5eca010741e4330e589a3a27", "spotName": "Jobos" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e048",
+    "country": "United States",
+    "region": "Texas",
+    "area": "Brazoria County",
+    "slug": "brazoria-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38d1", "spotName": "Surfside" },
+      { "_id": "5eca010741e4330e589a3951", "spotName": "Quintana" },
+      { "_id": "5eca010741e4330e589a39a0", "spotName": "Octagon" },
+      { "_id": "5eca010741e4330e589a3b03", "spotName": "Boilers" },
+      { "_id": "5eca010741e4330e589a3b2e", "spotName": "Assholes" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e049",
+    "country": "Portugal",
+    "region": "Leiria",
+    "area": "Peniche Municipality",
+    "slug": "peniche-municipality",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38d6", "spotName": "Supertubos" },
+      { "_id": "5eca010741e4330e589a3b24", "spotName": "Baleal" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e04a",
+    "country": "Australia",
+    "region": "Queensland",
+    "area": "Gold Coast",
+    "slug": "gold-coast",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38d7", "spotName": "Superbank" },
+      { "_id": "5eca010741e4330e589a3902", "spotName": "Snapper Rocks" },
+      {
+        "_id": "5eca010741e4330e589a39a7",
+        "spotName": "North Stradbroke Island"
+      },
+      { "_id": "5eca010741e4330e589a3a17", "spotName": "Kirra" },
+      { "_id": "5eca010741e4330e589a3af1", "spotName": "Burleigh Heads" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e04b",
+    "country": "El Salvador",
+    "region": "Departamento de La Libertad",
+    "area": "La Libertad",
+    "slug": "la-libertad",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38d8", "spotName": "Sunzal" },
+      { "_id": "5eca010741e4330e589a3955", "spotName": "Punta Roca" },
+      { "_id": "5eca010741e4330e589a3973", "spotName": "Playa Conchalio" },
+      { "_id": "5eca010741e4330e589a397b", "spotName": "Playa San Diego" },
+      { "_id": "5eca010741e4330e589a3a0d", "spotName": "La Paz" },
+      { "_id": "5eca010741e4330e589a3a12", "spotName": "La Bocana" },
+      { "_id": "5eca010741e4330e589a3a8d", "spotName": "El Muelle (Pier)" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e04c",
+    "country": "Maldives",
+    "region": "Kaafu Atoll",
+    "area": "Hulhumale",
+    "slug": "hulhumale",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38e1", "spotName": "Sultans" },
+      { "_id": "5eca010741e4330e589a3988", "spotName": "Pasta Point" },
+      { "_id": "5eca010741e4330e589a39b1", "spotName": "Ninja's" },
+      { "_id": "5eca010741e4330e589a39f6", "spotName": "Lohi's" },
+      { "_id": "5eca010741e4330e589a3a2e", "spotName": "Jailbreaks" },
+      { "_id": "5eca010741e4330e589a3a44", "spotName": "Honky's" },
+      { "_id": "5eca010741e4330e589a3ac3", "spotName": "Colas" },
+      { "_id": "5eca010741e4330e589a3ace", "spotName": "Chickens" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e04e",
+    "country": "Ireland",
+    "region": "Connaught",
+    "area": "County Sligo",
+    "slug": "county-sligo",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38e3", "spotName": "Streedagh Strand" },
+      { "_id": "5eca010741e4330e589a38e7", "spotName": "Strandhill" },
+      { "_id": "5eca010741e4330e589a3a19", "spotName": "Kilcummin Harbour" },
+      { "_id": "5eca010741e4330e589a3a8f", "spotName": "Easkey" },
+      { "_id": "5eca010741e4330e589a3a94", "spotName": "Dunmoran" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e04d",
+    "country": "Australia",
+    "region": "Western Australia",
+    "area": "Fremantle",
+    "slug": "fremantle",
+    "spots": [
+      {
+        "_id": "5eca010741e4330e589a38e4",
+        "spotName": "Strickland Bay/Rottnest Island"
+      }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e04f",
+    "country": "United States",
+    "region": "California",
+    "area": "Marin County",
+    "slug": "marin-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38e8", "spotName": "Stinson Beach" },
+      { "_id": "5eca010741e4330e589a3964", "spotName": "Point Reyes (north)" },
+      {
+        "_id": "5eca010741e4330e589a3a78",
+        "spotName": "Fort Cronkite/Rodeo Beach"
+      },
+      { "_id": "5eca010741e4330e589a3afd", "spotName": "Bolinas Jetty" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e050",
+    "country": "United States",
+    "region": "Georgia",
+    "area": "Glynn County",
+    "slug": "glynn-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38eb", "spotName": "St. Simons Island" },
+      { "_id": "5eca010741e4330e589a3918", "spotName": "Sea Island" },
+      { "_id": "5eca010741e4330e589a3a29", "spotName": "Jekyll Island" },
+      { "_id": "5eca010741e4330e589a3a50", "spotName": "Harbor Marker Buoys" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e052",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Franklin County",
+    "slug": "franklin-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38ec", "spotName": "St. George Island" },
+      { "_id": "5eca010741e4330e589a3a98", "spotName": "Dog Island" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e051",
+    "country": "United States",
+    "region": "Texas",
+    "area": "Nueces County",
+    "slug": "nueces-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38ed", "spotName": "St. Joe's Island" },
+      { "_id": "5eca010741e4330e589a3a31", "spotName": "J.P. Luby Surf Park" },
+      { "_id": "5eca010741e4330e589a3a43", "spotName": "Horace Caldwell Pier" },
+      { "_id": "5eca010741e4330e589a3a81", "spotName": "Fish Pass" },
+      { "_id": "5eca010741e4330e589a3b06", "spotName": "Bob Hall Pier" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e054",
+    "country": "United States",
+    "region": "New Jersey",
+    "area": "Monmouth County",
+    "slug": "monmouth-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38ee", "spotName": "Spring Lake" },
+      { "_id": "5eca010741e4330e589a3916", "spotName": "Sea Girt" },
+      { "_id": "5eca010741e4330e589a3923", "spotName": "Sandy Hook" },
+      { "_id": "5eca010741e4330e589a39c8", "spotName": "Monmouth" },
+      { "_id": "5eca010741e4330e589a39d1", "spotName": "Monmouth Beach" },
+      { "_id": "5eca010741e4330e589a39e6", "spotName": "Manasquan Inlet" },
+      { "_id": "5eca010741e4330e589a3afe", "spotName": "Bradley Beach" },
+      { "_id": "5eca010741e4330e589a3b22", "spotName": "Avon" },
+      { "_id": "5eca010741e4330e589a3b30", "spotName": "Asbury Park" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e053",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Bay County",
+    "slug": "bay-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38ef", "spotName": "St. Andrew's Park" },
+      { "_id": "5eca010741e4330e589a38f1", "spotName": "Spinnaker" },
+      { "_id": "5eca010741e4330e589a390c", "spotName": "Shell Island" },
+      { "_id": "5eca010741e4330e589a3989", "spotName": "Panama City Pier" },
+      { "_id": "5eca010741e4330e589a39d0", "spotName": "Mexico Beach" },
+      { "_id": "5eca010741e4330e589a3a34", "spotName": "Inlet Beach Pier" },
+      { "_id": "5eca010741e4330e589a3a8e", "spotName": "El Governor" },
+      { "_id": "5eca010741e4330e589a3aae", "spotName": "D.J.'s" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e055",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Broward County",
+    "slug": "broward-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38f0", "spotName": "Spoils" },
+      {
+        "_id": "5eca010741e4330e589a395f",
+        "spotName": "Pompano Pier Southside"
+      },
+      {
+        "_id": "5eca010741e4330e589a3a20",
+        "spotName": "John Lloyd State Park"
+      },
+      { "_id": "5eca010741e4330e589a3a4b", "spotName": "Hillsboro Inlet" },
+      { "_id": "5eca010741e4330e589a3a6d", "spotName": "Hillsboro Beach" },
+      { "_id": "5eca010741e4330e589a3a70", "spotName": "Franklin Street" },
+      { "_id": "5eca010741e4330e589a3aa6", "spotName": "Deerfield Beach Pier" },
+      { "_id": "5eca010741e4330e589a3aab", "spotName": "Dania Pier" },
+      { "_id": "5eca010741e4330e589a3ac2", "spotName": "Commercial Pier" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e056",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Ballina",
+    "slug": "ballina",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38f3", "spotName": "South Wall Ballina" },
+      { "_id": "5eca010741e4330e589a3a01", "spotName": "Lennox Head" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e058",
+    "country": "United States",
+    "region": "California",
+    "area": "San Francisco County",
+    "slug": "san-francisco-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38f7", "spotName": "South Ocean Beach" },
+      { "_id": "5eca010741e4330e589a39a5", "spotName": "Ocean Beach" },
+      { "_id": "5eca010741e4330e589a3a77", "spotName": "Fort Point" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e057",
+    "country": "Australia",
+    "region": "Western Australia",
+    "area": "Margaret River",
+    "slug": "margaret-river",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38fa", "spotName": "South Point" },
+      { "_id": "5eca010741e4330e589a39ab", "spotName": "North Point" },
+      { "_id": "5eca010741e4330e589a39e0", "spotName": "Margaret River" },
+      { "_id": "5eca010741e4330e589a3a05", "spotName": "Lefthanders" },
+      { "_id": "5eca010741e4330e589a3a6b", "spotName": "Gas Bay" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e059",
+    "country": "United States",
+    "region": "North Carolina",
+    "area": "Brunswick County",
+    "slug": "brunswick-county",
+    "spots": [
+      {
+        "_id": "5eca010741e4330e589a38fd",
+        "spotName": "South Brunswick Beaches"
+      },
+      { "_id": "5eca010741e4330e589a39a6", "spotName": "Oak Island" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e05b",
+    "country": "United States",
+    "region": "California",
+    "area": "Del Norte County",
+    "slug": "del-norte-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38fe", "spotName": "South Beach CA" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e05a",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Miami-Dade County",
+    "slug": "miami-dade-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a38ff", "spotName": "South Beach" },
+      {
+        "_id": "5eca010741e4330e589a3a4e",
+        "spotName": "Haulover Inlet (North Jetty)"
+      },
+      {
+        "_id": "5eca010741e4330e589a3a4f",
+        "spotName": "Haulover Inlet (South Jetty)"
+      },
+      { "_id": "5eca010741e4330e589a3b43", "spotName": "85th Street" },
+      { "_id": "5eca010741e4330e589a3b44", "spotName": "5th Street" },
+      { "_id": "5eca010741e4330e589a3b4d", "spotName": "30th Street" },
+      { "_id": "5eca010741e4330e589a3b52", "spotName": "21st Street" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e05c",
+    "country": "Barbados",
+    "region": "Saint Joseph",
+    "area": "Bathsheba",
+    "slug": "bathsheba",
+    "spots": [{ "_id": "5eca010741e4330e589a3900", "spotName": "Soup Bowl" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e05d",
+    "country": "Dominican Republic",
+    "region": "Puerto Plata",
+    "area": "Sosúa",
+    "slug": "sosua",
+    "spots": [{ "_id": "5eca010741e4330e589a3901", "spotName": "Sosua" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e05e",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Escambia County",
+    "slug": "escambia-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3904", "spotName": "Slabs" },
+      { "_id": "5eca010741e4330e589a3982", "spotName": "Pensacola Pier" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e05f",
+    "country": "United States",
+    "region": "Rhode Island",
+    "area": "Newport County",
+    "slug": "newport-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a390d", "spotName": "Second Beach" },
+      { "_id": "5eca010741e4330e589a3938", "spotName": "Ruggles - Newport" },
+      { "_id": "5eca010741e4330e589a3a85", "spotName": "First Beach" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e060",
+    "country": "United States",
+    "region": "New Jersey",
+    "area": "Ocean County",
+    "slug": "ocean-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3911", "spotName": "Seaside Park" },
+      { "_id": "5eca010741e4330e589a3914", "spotName": "Seaside Heights" },
+      { "_id": "5eca010741e4330e589a3995", "spotName": "Ortley Beach" },
+      { "_id": "5eca010741e4330e589a39e3", "spotName": "Mantoloking" },
+      { "_id": "5eca010741e4330e589a39f5", "spotName": "Long Beach Island" },
+      { "_id": "5eca010741e4330e589a3a02", "spotName": "Lavallette" },
+      { "_id": "5eca010741e4330e589a3a2a", "spotName": "Jenkinson's" },
+      {
+        "_id": "5eca010741e4330e589a3a35",
+        "spotName": "Island Beach State Park"
+      },
+      { "_id": "5eca010741e4330e589a3a42", "spotName": "Hudson Ave." },
+      { "_id": "5eca010741e4330e589a3a46", "spotName": "Holyoke" },
+      { "_id": "5eca010741e4330e589a3ad6", "spotName": "Casino Pier" },
+      { "_id": "5eca010741e4330e589a3b20", "spotName": "Bay Head" },
+      { "_id": "5eca010741e4330e589a3b5d", "spotName": "7-11" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e061",
+    "country": "Australia",
+    "region": "Western Australia",
+    "area": "Scarborough",
+    "slug": "scarborough",
+    "spots": [{ "_id": "5eca010741e4330e589a391b", "spotName": "Scarborough" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e063",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Saint Johns County",
+    "slug": "saint-johns-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a391d", "spotName": "Sawgrass" },
+      { "_id": "5eca010741e4330e589a3ab6", "spotName": "Crescent Beach" },
+      { "_id": "5eca010741e4330e589a3b0d", "spotName": "Blowholes" },
+      { "_id": "5eca010741e4330e589a3b3d", "spotName": "A St." }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e062",
+    "country": "United States",
+    "region": "Maine",
+    "area": "Cumberland County",
+    "slug": "cumberland-county",
+    "spots": [
+      {
+        "_id": "5eca010741e4330e589a391c",
+        "spotName": "Scarborough Beach State Park"
+      },
+      { "_id": "5eca010741e4330e589a3a4c", "spotName": "Higgins Beach" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e064",
+    "country": "Portugal",
+    "region": "Lisbon",
+    "area": "Mafra Municipality",
+    "slug": "mafra-municipality",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3920", "spotName": "Sao Lourenco" },
+      { "_id": "5eca010741e4330e589a3947", "spotName": "Ribeira de Ilhas" },
+      { "_id": "5eca010741e4330e589a3948", "spotName": "Reef" },
+      { "_id": "5eca010741e4330e589a3a72", "spotName": "Foz de Lizandro" },
+      { "_id": "5eca010741e4330e589a3ab9", "spotName": "Coxos" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e066",
+    "country": "United States",
+    "region": "California",
+    "area": "San Luis Obispo County",
+    "slug": "san-luis-obispo-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3921", "spotName": "Santa Rosa Creek" },
+      { "_id": "5eca010741e4330e589a3935", "spotName": "San Simeon" },
+      { "_id": "5eca010741e4330e589a3976", "spotName": "Pismo Beach Pier" },
+      { "_id": "5eca010741e4330e589a397d", "spotName": "Pico Creek" },
+      { "_id": "5eca010741e4330e589a39c4", "spotName": "Morro Bay" },
+      { "_id": "5eca010741e4330e589a39c6", "spotName": "Moonstone" },
+      { "_id": "5eca010741e4330e589a3ad2", "spotName": "Cayucos Pier" },
+      { "_id": "5eca010741e4330e589a3b2c", "spotName": "Avila Beach" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e065",
+    "country": "Nicaragua",
+    "region": "Departamento de Rivas",
+    "area": "Tola",
+    "slug": "tola",
+    "spots": [{ "_id": "5eca010741e4330e589a3922", "spotName": "Santana" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e067",
+    "country": "United States",
+    "region": "Alabama",
+    "area": "Baldwin County",
+    "slug": "baldwin-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3924", "spotName": "Sandy Key" },
+      { "_id": "5eca010741e4330e589a3a83", "spotName": "First Parking Lot" },
+      { "_id": "5eca010741e4330e589a3aee", "spotName": "Bungalows" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e068",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Bulli",
+    "slug": "bulli",
+    "spots": [{ "_id": "5eca010741e4330e589a3928", "spotName": "Sandon Point" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e069",
+    "country": "United States",
+    "region": "Virginia",
+    "area": "City of Virginia Beach",
+    "slug": "city-of-virginia-beach",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3929", "spotName": "Sandbridge Beach" },
+      { "_id": "5eca010741e4330e589a3ab5", "spotName": "Croatan to Pendleton" },
+      { "_id": "5eca010741e4330e589a3ae6", "spotName": "Camp Pendleton" },
+      {
+        "_id": "5eca010741e4330e589a3b48",
+        "spotName": "83rd to 86th St., North End"
+      },
+      {
+        "_id": "5eca010741e4330e589a3b54",
+        "spotName": "1st St. Jetty to Pier"
+      },
+      { "_id": "5eca010741e4330e589a3b5b", "spotName": "15th Street Pier" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e06a",
+    "country": "Mexico",
+    "region": "Baja California Sur",
+    "area": "La Paz",
+    "slug": "la-paz",
+    "spots": [{ "_id": "5eca010741e4330e589a392d", "spotName": "San Pedrito" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e06b",
+    "country": "Puerto Rico",
+    "region": "San Juan",
+    "area": "San Juan Antiguo Barrio",
+    "slug": "san-juan-antiguo-barrio",
+    "spots": [
+      { "_id": "5eca010741e4330e589a392e", "spotName": "San Juan" },
+      { "_id": "5eca010741e4330e589a3a0e", "spotName": "La Ocho" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e06d",
+    "country": "United States",
+    "region": "California",
+    "area": "Sonoma County",
+    "slug": "sonoma-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3930", "spotName": "Salmon Creek" },
+      { "_id": "5eca010741e4330e589a3937", "spotName": "Russian Rivermouth" },
+      { "_id": "5eca010741e4330e589a3a95", "spotName": "Doran Beach" },
+      { "_id": "5eca010741e4330e589a3b13", "spotName": "Black Point Beach" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e06c",
+    "country": "Costa Rica",
+    "region": "Provincia de Limón",
+    "area": "Limón",
+    "slug": "limon",
+    "spots": [{ "_id": "5eca010741e4330e589a3934", "spotName": "Salsa Brava" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e06e",
+    "country": "Mexico",
+    "region": "Baja California",
+    "area": "Playas de Rosarito",
+    "slug": "playas-de-rosarito",
+    "spots": [
+      { "_id": "5eca010741e4330e589a393a", "spotName": "Rosarito Beach" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e06f",
+    "country": "United States",
+    "region": "Oregon",
+    "area": "Tillamook County",
+    "slug": "tillamook-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3940", "spotName": "Rockaway Beach" },
+      { "_id": "5eca010741e4330e589a398f", "spotName": "Pacific City" },
+      { "_id": "5eca010741e4330e589a3ae4", "spotName": "Short Sands" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e070",
+    "country": "United States",
+    "region": "Oregon",
+    "area": "Lincoln County",
+    "slug": "lincoln-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3942", "spotName": "Roads End" },
+      { "_id": "5eca010741e4330e589a39b3", "spotName": "Newport (Oregon)" },
+      { "_id": "5eca010741e4330e589a39fb", "spotName": "Lincoln City" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e071",
+    "country": "Mexico",
+    "region": "Oaxaca",
+    "area": "Santa María Colotepec",
+    "slug": "santa-maria-colotepec",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3958", "spotName": "Puerto Escondido" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e072",
+    "country": "United States",
+    "region": "Oregon",
+    "area": "Curry County",
+    "slug": "curry-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a395a", "spotName": "Port Orford" },
+      {
+        "_id": "5eca010741e4330e589a3a65",
+        "spotName": "Gold Beach South Jetty"
+      },
+      { "_id": "5eca010741e4330e589a3af6", "spotName": "Brookings Jetty" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e073",
+    "country": "United States",
+    "region": "Texas",
+    "area": "Cameron County",
+    "slug": "cameron-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a395b", "spotName": "Port Mansfield" },
+      {
+        "_id": "5eca010741e4330e589a3a32",
+        "spotName": "Isla Blanca State Park"
+      },
+      { "_id": "5eca010741e4330e589a3b07", "spotName": "Boca Chica" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e074",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Volusia County",
+    "slug": "volusia-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3960", "spotName": "Ponce Inlet" },
+      { "_id": "5eca010741e4330e589a3996", "spotName": "Ormond Beach" },
+      {
+        "_id": "5eca010741e4330e589a39b6",
+        "spotName": "New Smyrna Beach North"
+      },
+      { "_id": "5eca010741e4330e589a3a7e", "spotName": "Flagler Ave." },
+      { "_id": "5eca010741e4330e589a3aa8", "spotName": "Daytona Beach" },
+      { "_id": "5eca010741e4330e589a3b17", "spotName": "Bicentennial Park" },
+      { "_id": "5eca010741e4330e589a3b1a", "spotName": "Bethune Beach" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e075",
+    "country": "United States",
+    "region": "Hawaii",
+    "area": "Kauai Island",
+    "slug": "kauai-island",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3963", "spotName": "Poipu Outer Reef" },
+      { "_id": "5eca010741e4330e589a398e", "spotName": "Pakala" },
+      { "_id": "5eca010741e4330e589a3a51", "spotName": "Hanalei Bay" },
+      {
+        "_id": "5eca010741e4330e589a3a54",
+        "spotName": "Ha'Ena Bay (Cannons/Tunnels)"
+      },
+      { "_id": "5eca010741e4330e589a3b36", "spotName": "Anahola Bay" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e077",
+    "country": "United States",
+    "region": "Rhode Island",
+    "area": "Washington County",
+    "slug": "washington-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3965", "spotName": "Point Judith" },
+      { "_id": "5eca010741e4330e589a39b9", "spotName": "Narragansett" },
+      {
+        "_id": "5eca010741e4330e589a39ca",
+        "spotName": "Monahan's - Narragansett"
+      }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e076",
+    "country": "Australia",
+    "region": "Victoria",
+    "area": "Mornington Peninsula",
+    "slug": "mornington-peninsula",
+    "spots": [
+      { "_id": "5eca010741e4330e589a396c", "spotName": "Point Leo" },
+      { "_id": "5eca010741e4330e589a3a58", "spotName": "Gunnamatta" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e078",
+    "country": "Panama",
+    "region": "Provincia de Veraguas",
+    "area": "Río Grande",
+    "slug": "rio-grande",
+    "spots": [
+      { "_id": "5eca010741e4330e589a396d", "spotName": "Playa Santa Catalina" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e079",
+    "country": "Costa Rica",
+    "region": "Provincia de Puntarenas",
+    "area": "Garabito",
+    "slug": "garabito",
+    "spots": [
+      { "_id": "5eca010741e4330e589a396e", "spotName": "Playa Jaco" },
+      { "_id": "5eca010741e4330e589a396f", "spotName": "Playa Hermosa" },
+      { "_id": "5eca010741e4330e589a3972", "spotName": "Playa Hermosa South" },
+      { "_id": "5eca010741e4330e589a3a4d", "spotName": "Herradura" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e07a",
+    "country": "Costa Rica",
+    "region": "Provincia de Puntarenas",
+    "area": "Parrita",
+    "slug": "parrita",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3971", "spotName": "Playa Esterillos" },
+      { "_id": "5eca010741e4330e589a3b1e", "spotName": "Bejuco" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e07b",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Maclean",
+    "slug": "maclean",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3977", "spotName": "Pippies/Yamba" },
+      { "_id": "5eca010741e4330e589a3b33", "spotName": "Angourie" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e07c",
+    "country": "Peru",
+    "region": "Lima region",
+    "area": "Lima",
+    "slug": "lima",
+    "spots": [
+      { "_id": "5eca010741e4330e589a397c", "spotName": "Pico Alto" },
+      { "_id": "5eca010741e4330e589a3981", "spotName": "Peruazul" },
+      { "_id": "5eca010741e4330e589a39eb", "spotName": "Makaha" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e07d",
+    "country": "Australia",
+    "region": "South Australia",
+    "area": "Kangaroo Island",
+    "slug": "kangaroo-island",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3983", "spotName": "Pennington Bay" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e07e",
+    "country": "Costa Rica",
+    "region": "Provincia de Puntarenas",
+    "area": "Golfito",
+    "slug": "golfito",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3986", "spotName": "Pavones" },
+      { "_id": "5eca010741e4330e589a39d8", "spotName": "Matapalo" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e07f",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Bega Valley",
+    "slug": "bega-valley",
+    "spots": [
+      { "_id": "5eca010741e4330e589a398c", "spotName": "Pambula Rivermouth" },
+      { "_id": "5eca010741e4330e589a39e1", "spotName": "Merimbula Bar" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e080",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Saint Lucie County",
+    "slug": "saint-lucie-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3992", "spotName": "P.V. Martin's" },
+      { "_id": "5eca010741e4330e589a3a6c", "spotName": "Ft. Pierce Inlet" },
+      { "_id": "5eca010741e4330e589a3b0f", "spotName": "Blind Creek Park" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e081",
+    "country": "Costa Rica",
+    "region": "Provincia de Guanacaste",
+    "area": "La Cruz",
+    "slug": "la-cruz",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3998", "spotName": "Ollie's Point" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e083",
+    "country": "Australia",
+    "region": "Queensland",
+    "area": "Sunshine Coast",
+    "slug": "sunshine-coast",
+    "spots": [
+      { "_id": "5eca010741e4330e589a39ae", "spotName": "Noosa Heads" },
+      { "_id": "5eca010741e4330e589a39c5", "spotName": "Mooloolaba" },
+      { "_id": "5eca010741e4330e589a3ae3", "spotName": "Caloundra" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e082",
+    "country": "United States",
+    "region": "Maryland",
+    "area": "Worcester County",
+    "slug": "worcester-county",
+    "spots": [
+      {
+        "_id": "5eca010741e4330e589a39af",
+        "spotName": "North End to Ocean City Inlet"
+      },
+      { "_id": "5eca010741e4330e589a3b2d", "spotName": "Assateague" },
+      { "_id": "5eca010741e4330e589a3b3f", "spotName": "8th St." }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e084",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Bilgola Beach",
+    "slug": "bilgola-beach",
+    "spots": [
+      { "_id": "5eca010741e4330e589a39b2", "spotName": "Newport" },
+      { "_id": "5eca010741e4330e589a3b27", "spotName": "Avalon" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e085",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Santa Rosa County",
+    "slug": "santa-rosa-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a39b7", "spotName": "Navarre Pier" },
+      { "_id": "5eca010741e4330e589a39bf", "spotName": "Navarre Beach" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e086",
+    "country": "United States",
+    "region": "Delaware",
+    "area": "Sussex County",
+    "slug": "sussex-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a39ba", "spotName": "Naval Jetties" },
+      { "_id": "5eca010741e4330e589a3a39", "spotName": "Indian River Inlet" },
+      { "_id": "5eca010741e4330e589a3a5e", "spotName": "Gordons Pond" },
+      { "_id": "5eca010741e4330e589a3a88", "spotName": "Fenwick Island" },
+      { "_id": "5eca010741e4330e589a3aa0", "spotName": "Dewey Beach" },
+      { "_id": "5eca010741e4330e589a3b1b", "spotName": "Bethany Beach" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e087",
+    "country": "United States",
+    "region": "Massachusetts",
+    "area": "Plymouth County",
+    "slug": "plymouth-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a39bc", "spotName": "Nantasket Beach" },
+      { "_id": "5eca010741e4330e589a3a90", "spotName": "Egypt Beach" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e088",
+    "country": "United States",
+    "region": "South Carolina",
+    "area": "Horry County",
+    "slug": "horry-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a39c0", "spotName": "Myrtle Beach" },
+      {
+        "_id": "5eca010741e4330e589a3acd",
+        "spotName": "Cherry Grove Pier Northside"
+      }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e089",
+    "country": "Ireland",
+    "region": "Connaught",
+    "area": "County Leitrim",
+    "slug": "county-leitrim",
+    "spots": [
+      { "_id": "5eca010741e4330e589a39c1", "spotName": "Mullaghmore Strand" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e08a",
+    "country": "New Zealand",
+    "region": "North Island",
+    "area": "Bay of Plenty",
+    "slug": "bay-of-plenty",
+    "spots": [
+      {
+        "_id": "5eca010741e4330e589a39c2",
+        "spotName": "Mount Beach, Bay Of Plenty"
+      }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e08b",
+    "country": "Australia",
+    "region": "South Australia",
+    "area": "Alexandrina",
+    "slug": "alexandrina",
+    "spots": [{ "_id": "5eca010741e4330e589a39cd", "spotName": "Middleton" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e08c",
+    "country": "Puerto Rico",
+    "region": "Municipio de Isabela",
+    "area": "Isabela Barrio-Pueblo",
+    "slug": "isabela-barrio-pueblo",
+    "spots": [{ "_id": "5eca010741e4330e589a39ce", "spotName": "Middles" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e08d",
+    "country": "United States",
+    "region": "Texas",
+    "area": "Matagorda County",
+    "slug": "matagorda-county",
+    "spots": [{ "_id": "5eca010741e4330e589a39dc", "spotName": "Matagorda" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e08e",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Randwick",
+    "slug": "randwick",
+    "spots": [{ "_id": "5eca010741e4330e589a39dd", "spotName": "Maroubra" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e090",
+    "country": "Costa Rica",
+    "region": "Provincia de Puntarenas",
+    "area": "Quepos",
+    "slug": "quepos",
+    "spots": [
+      { "_id": "5eca010741e4330e589a39e2", "spotName": "Manuel Antonio" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e08f",
+    "country": "Puerto Rico",
+    "region": "Arecibo",
+    "area": "Arecibo Barrio-Pueblo",
+    "slug": "arecibo-barrio-pueblo",
+    "spots": [{ "_id": "5eca010741e4330e589a39e5", "spotName": "Margara" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e091",
+    "country": "Costa Rica",
+    "region": "Provincia de Puntarenas",
+    "area": "Puntarenas",
+    "slug": "puntarenas",
+    "spots": [
+      { "_id": "5eca010741e4330e589a39e9", "spotName": "Mal Pais" },
+      { "_id": "5eca010741e4330e589a3ae5", "spotName": "Caldera Jetty" },
+      { "_id": "5eca010741e4330e589a3b09", "spotName": "Boca Barranca" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e092",
+    "country": "Puerto Rico",
+    "region": "Manatí Municipio",
+    "area": "Tierras Nuevas Saliente Barrio",
+    "slug": "tierras-nuevas-saliente-barrio",
+    "spots": [{ "_id": "5eca010741e4330e589a39f2", "spotName": "Los Tubos" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e094",
+    "country": "United States",
+    "region": "New York",
+    "area": "Nassau County",
+    "slug": "nassau-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a39fa", "spotName": "Lincoln Blvd." },
+      { "_id": "5eca010741e4330e589a39fd", "spotName": "Lido Beach" },
+      { "_id": "5eca010741e4330e589a3a07", "spotName": "Laurelton Blvd." }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e095",
+    "country": "France",
+    "region": "Nouvelle-Aquitaine",
+    "area": "Landes",
+    "slug": "landes",
+    "spots": [
+      { "_id": "5eca010741e4330e589a39fe", "spotName": "Les Culs Nuls" },
+      { "_id": "5eca010741e4330e589a3a04", "spotName": "Le Santocha" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e093",
+    "country": "United States",
+    "region": "Washington",
+    "area": "Pacific County",
+    "slug": "pacific-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a39ff", "spotName": "Long Beach Peninsula" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e098",
+    "country": "United States",
+    "region": "Washington",
+    "area": "Clallam County",
+    "slug": "clallam-county",
+    "spots": [{ "_id": "5eca010741e4330e589a3a0a", "spotName": "La Push" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e096",
+    "country": "United States",
+    "region": "Hawaii",
+    "area": "Maui",
+    "slug": "maui",
+    "spots": [
+      {
+        "_id": "5eca010741e4330e589a3a0c",
+        "spotName": "Lahaina Harbor - Breakwall"
+      },
+      { "_id": "5eca010741e4330e589a3a93", "spotName": "Dumps" },
+      {
+        "_id": "5eca010741e4330e589a3b18",
+        "spotName": "Big Beach - Little Beach"
+      }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e099",
+    "country": "Puerto Rico",
+    "region": "Luquillo Municipio",
+    "area": "Mata de Plátano Barrio",
+    "slug": "mata-de-platano-barrio",
+    "spots": [{ "_id": "5eca010741e4330e589a3a0f", "spotName": "La Pared" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e09a",
+    "country": "France",
+    "region": "Nouvelle-Aquitaine",
+    "area": "Pyrénées-Atlantiques",
+    "slug": "pyrenees-atlantiques",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3a10", "spotName": "La Cote des Basques" },
+      { "_id": "5eca010741e4330e589a3b19", "spotName": "Biarritz" },
+      { "_id": "5eca010741e4330e589a3b34", "spotName": "Anglet" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e097",
+    "country": "Puerto Rico",
+    "region": "Fajardo Municipio",
+    "area": "Fajardo Barrio-Pueblo",
+    "slug": "fajardo-barrio-pueblo",
+    "spots": [{ "_id": "5eca010741e4330e589a3a13", "spotName": "La Selva" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e09b",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Charlotte County",
+    "slug": "charlotte-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3a14", "spotName": "Knight's Point" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e09c",
+    "country": "United States",
+    "region": "Hawaii",
+    "area": "Island of Hawaii",
+    "slug": "island-of-hawaii",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3a1a", "spotName": "Kawaihae" },
+      { "_id": "5eca010741e4330e589a3b21", "spotName": "Banyans" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e09d",
+    "country": "Australia",
+    "region": "Victoria",
+    "area": "Colac-Otway",
+    "slug": "colac-otway",
+    "spots": [{ "_id": "5eca010741e4330e589a3a26", "spotName": "Johanna" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e09e",
+    "country": "United States",
+    "region": "North Carolina",
+    "area": "Carteret County",
+    "slug": "carteret-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3a36", "spotName": "Iron Steamer" },
+      { "_id": "5eca010741e4330e589a3a89", "spotName": "Emerald Isle" },
+      {
+        "_id": "5eca010741e4330e589a3ae0",
+        "spotName": "Cape Lookout National Seashore"
+      },
+      { "_id": "5eca010741e4330e589a3b32", "spotName": "Atlantic Beach" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e09f",
+    "country": "Puerto Rico",
+    "region": "Patillas Municipio",
+    "area": "Bajo Barrio",
+    "slug": "bajo-barrio",
+    "spots": [{ "_id": "5eca010741e4330e589a3a3b", "spotName": "Inches" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a0",
+    "country": "United States",
+    "region": "South Carolina",
+    "area": "Beaufort County",
+    "slug": "beaufort-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3a3e", "spotName": "Hunting Island" },
+      { "_id": "5eca010741e4330e589a3a4a", "spotName": "Hilton Head Island" },
+      { "_id": "5eca010741e4330e589a3a6f", "spotName": "Fripp Island" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a2",
+    "country": "Puerto Rico",
+    "region": "Quebradillas Municipio",
+    "area": "Quebradillas Barrio-Pueblo",
+    "slug": "quebradillas-barrio-pueblo",
+    "spots": [{ "_id": "5eca010741e4330e589a3a59", "spotName": "Guajataca" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a1",
+    "country": "Costa Rica",
+    "region": "Provincia de Guanacaste",
+    "area": "Nicoya",
+    "slug": "nicoya",
+    "spots": [{ "_id": "5eca010741e4330e589a3a5a", "spotName": "Guiones" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a3",
+    "country": "United States",
+    "region": "North Carolina",
+    "area": "New Hanover County",
+    "slug": "new-hanover-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3a76", "spotName": "Fort Fisher" },
+      {
+        "_id": "5eca010741e4330e589a3a84",
+        "spotName": "Figure Eight and Shell Islands"
+      },
+      { "_id": "5eca010741e4330e589a3ab3", "spotName": "Crystal Pier" },
+      { "_id": "5eca010741e4330e589a3ad8", "spotName": "Carolina Beach Pier" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a4",
+    "country": "United States",
+    "region": "Oregon",
+    "area": "Lane County",
+    "slug": "lane-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3a7b", "spotName": "Florence South Jetty" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a5",
+    "country": "United States",
+    "region": "Virginia",
+    "area": "Northampton County",
+    "slug": "northampton-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3a82", "spotName": "Fishermans Island" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a6",
+    "country": "United States",
+    "region": "South Carolina",
+    "area": "Colleton County",
+    "slug": "colleton-county",
+    "spots": [{ "_id": "5eca010741e4330e589a3a91", "spotName": "Edisto Beach" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a7",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Tweed",
+    "slug": "tweed",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3a92", "spotName": "Duranbah" },
+      { "_id": "5eca010741e4330e589a3aed", "spotName": "Cabarita" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a8",
+    "country": "Costa Rica",
+    "region": "Provincia de San José",
+    "area": "Pérez Zeledón",
+    "slug": "perez-zeledon",
+    "spots": [{ "_id": "5eca010741e4330e589a3a99", "spotName": "Dominical" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a9",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Warringah Council",
+    "slug": "warringah-council",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3aa7", "spotName": "Dee Why" },
+      { "_id": "5eca010741e4330e589a3aad", "spotName": "Curl Curl" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0aa",
+    "country": "United States",
+    "region": "Georgia",
+    "area": "Camden County",
+    "slug": "camden-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3ab0", "spotName": "Cumberland Island" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0ac",
+    "country": "Australia",
+    "region": "Western Australia",
+    "area": "Mosman Park",
+    "slug": "mosman-park",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3abc", "spotName": "Cottosloe" },
+      { "_id": "5eca010741e4330e589a3ae8", "spotName": "Cables" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0ad",
+    "country": "Mexico",
+    "region": "Nayarit",
+    "area": "Bahía de Banderas",
+    "slug": "bahia-de-banderas",
+    "spots": [{ "_id": "5eca010741e4330e589a3abf", "spotName": "Costa Azul" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0ab",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Sutherland Shire",
+    "slug": "sutherland-shire",
+    "spots": [{ "_id": "5eca010741e4330e589a3ac1", "spotName": "Cronulla" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0ae",
+    "country": "United States",
+    "region": "North Carolina",
+    "area": "Currituck County",
+    "slug": "currituck-county",
+    "spots": [{ "_id": "5eca010741e4330e589a3ac4", "spotName": "Corolla" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0af",
+    "country": "Australia",
+    "region": "South Australia",
+    "area": "Yorke Peninsula",
+    "slug": "yorke-peninsula",
+    "spots": [{ "_id": "5eca010741e4330e589a3acc", "spotName": "Chinamans" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b0",
+    "country": "Puerto Rico",
+    "region": "Carolina Municipio",
+    "area": "Carolina Barrio-Pueblo",
+    "slug": "carolina-barrio-pueblo",
+    "spots": [{ "_id": "5eca010741e4330e589a3acf", "spotName": "Chatarra" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b1",
+    "country": "Portugal",
+    "region": "Lisbon",
+    "area": "Oeiras Municipality",
+    "slug": "oeiras-municipality",
+    "spots": [{ "_id": "5eca010741e4330e589a3adb", "spotName": "Carcavelos" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b2",
+    "country": "United States",
+    "region": "Massachusetts",
+    "area": "Barnstable County",
+    "slug": "barnstable-county",
+    "spots": [{ "_id": "5eca010741e4330e589a3ade", "spotName": "Cape Cod" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b3",
+    "country": "United States",
+    "region": "Oregon",
+    "area": "Clatsop County",
+    "slug": "clatsop-county",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3ae1", "spotName": "Seaside" },
+      { "_id": "5eca010741e4330e589a3ae2", "spotName": "Cannon Beach" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b5",
+    "country": "Australia",
+    "region": "South Australia",
+    "area": "Ceduna",
+    "slug": "ceduna",
+    "spots": [{ "_id": "5eca010741e4330e589a3aeb", "spotName": "Cactus" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b4",
+    "country": "Panama",
+    "region": "Provincia de Bocas del Toro",
+    "area": "Barranco",
+    "slug": "barranco",
+    "spots": [{ "_id": "5eca010741e4330e589a3aea", "spotName": "Cahuita" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b6",
+    "country": "Portugal",
+    "region": "Coimbra",
+    "area": "Figueira da Foz Municipality",
+    "slug": "figueira-da-foz-municipality",
+    "spots": [{ "_id": "5eca010741e4330e589a3aef", "spotName": "Cabedelo" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b8",
+    "country": "United States",
+    "region": "New York",
+    "area": "Kings County",
+    "slug": "kings-county",
+    "spots": [{ "_id": "5eca010741e4330e589a3afa", "spotName": "Breezy Point" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b7",
+    "country": "Puerto Rico",
+    "region": "Aguadilla",
+    "area": "Aguadilla Barrio-Pueblo",
+    "slug": "aguadilla-barrio-pueblo",
+    "spots": [{ "_id": "5eca010741e4330e589a3afb", "spotName": "Bridges" }]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b9",
+    "country": "Australia",
+    "region": "Western Australia",
+    "area": "Geraldton",
+    "slug": "geraldton",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3b3b", "spotName": "Abrolhos Islands" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0ba",
+    "country": "United States",
+    "region": "New York",
+    "area": "Queens",
+    "slug": "queens",
+    "spots": [
+      { "_id": "5eca010741e4330e589a3b3e", "spotName": "90th St. Rockaways" },
+      { "_id": "5eca010741e4330e589a3b41", "spotName": "84th Street" },
+      { "_id": "5eca010741e4330e589a3b4e", "spotName": "30th - 39th Streets" }
+    ]
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0bb",
+    "country": "Australia",
+    "region": "Victoria",
+    "area": "Greater Geelong",
+    "slug": "greater-geelong",
+    "spots": [{ "_id": "5eca010741e4330e589a3b5c", "spotName": "13th Beach" }]
+  }
+]

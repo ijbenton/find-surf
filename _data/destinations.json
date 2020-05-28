@@ -1,0 +1,1234 @@
+[
+  {
+    "_id": "5ec94c7015e7542db038e00d",
+    "country": "Mexico",
+    "region": "Baja California Sur",
+    "area": "Los Cabos Municipality",
+    "slug": "baja-california-sur-los-cabos-municipality"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e00c",
+    "country": "United States",
+    "region": "California",
+    "area": "Los Angeles County",
+    "slug": "california-los-angeles-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e00e",
+    "country": "Spain",
+    "region": "Basque Country",
+    "area": "Gipuzkoa",
+    "slug": "basque-country-gipuzkoa"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e00f",
+    "country": "Australia",
+    "region": "Western Australia",
+    "area": "Yallingup",
+    "slug": "western-australia-yallingup"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e010",
+    "country": "Australia",
+    "region": "Victoria",
+    "area": "Bass Coast",
+    "slug": "victoria-bass-coast"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e011",
+    "country": "United States",
+    "region": "Georgia",
+    "area": "McIntosh County",
+    "slug": "georgia-mcintosh-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e013",
+    "country": "Puerto Rico",
+    "region": "Aguadilla",
+    "area": "Corrales Barrio",
+    "slug": "aguadilla-corrales-barrio"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e012",
+    "country": "Costa Rica",
+    "region": "Provincia de Guanacaste",
+    "area": "Carrillo",
+    "slug": "provincia-de-guanacaste-carrillo"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e014",
+    "country": "Australia",
+    "region": "Victoria",
+    "area": "Surf Coast",
+    "slug": "victoria-surf-coast"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e015",
+    "country": "United States",
+    "region": "California",
+    "area": "San Diego",
+    "slug": "california-san-diego"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e016",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Shellharbour",
+    "slug": "new-south-wales-shellharbour"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e017",
+    "country": "United States",
+    "region": "California",
+    "area": "Monterey County",
+    "slug": "california-monterey-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e018",
+    "country": "United States",
+    "region": "South Carolina",
+    "area": "Charleston County",
+    "slug": "south-carolina-charleston-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e019",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Manatee County",
+    "slug": "florida-manatee-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e01a",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Walton County",
+    "slug": "florida-walton-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e01b",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Palm Beach",
+    "slug": "new-south-wales-palm-beach"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e01c",
+    "country": "United States",
+    "region": "California",
+    "area": "Mendocino County",
+    "slug": "california-mendocino-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e01d",
+    "country": "United States",
+    "region": "Washington",
+    "area": "Grays Harbor County",
+    "slug": "washington-grays-harbor-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e01f",
+    "country": "United States",
+    "region": "Texas",
+    "area": "Galveston County",
+    "slug": "texas-galveston-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e01e",
+    "country": "United States",
+    "region": "California",
+    "area": "Humboldt County",
+    "slug": "california-humboldt-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e020",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Gerringong",
+    "slug": "new-south-wales-gerringong"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e021",
+    "country": "United States",
+    "region": "Maine",
+    "area": "York County",
+    "slug": "maine-york-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e022",
+    "country": "United States",
+    "region": "North Carolina",
+    "area": "Dare County",
+    "slug": "north-carolina-dare-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e023",
+    "country": "Australia",
+    "region": "Western Australia",
+    "area": "Carnarvon",
+    "slug": "western-australia-carnarvon"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e024",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Martin County",
+    "slug": "florida-martin-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e025",
+    "country": "Australia",
+    "region": "South Australia",
+    "area": "Victor Harbor",
+    "slug": "south-australia-victor-harbor"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e026",
+    "country": "United States",
+    "region": "Hawaii",
+    "area": "Oahu",
+    "slug": "hawaii-oahu"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e027",
+    "country": "United States",
+    "region": "California",
+    "area": "Santa Cruz County",
+    "slug": "california-santa-cruz-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e028",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Indian River County",
+    "slug": "florida-indian-river-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e029",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Duval County",
+    "slug": "florida-duval-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e02a",
+    "country": "United States",
+    "region": "California",
+    "area": "Ventura County",
+    "slug": "california-ventura-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e02b",
+    "country": "United States",
+    "region": "New Jersey",
+    "area": "Atlantic County",
+    "slug": "new-jersey-atlantic-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e02c",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Sarasota County",
+    "slug": "florida-sarasota-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e02d",
+    "country": "United States",
+    "region": "California",
+    "area": "Orange County",
+    "slug": "california-orange-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e02f",
+    "country": "Indonesia",
+    "region": "Bali",
+    "area": "Bali",
+    "slug": "bali-bali"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e02e",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Pinellas County",
+    "slug": "florida-pinellas-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e030",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Shoalhaven Shire",
+    "slug": "new-south-wales-shoalhaven-shire"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e031",
+    "country": "United States",
+    "region": "Georgia",
+    "area": "Chatham County",
+    "slug": "georgia-chatham-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e032",
+    "country": "Australia",
+    "region": "Victoria",
+    "area": "Warrnambool City",
+    "slug": "victoria-warrnambool-city"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e033",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Okaloosa County",
+    "slug": "florida-okaloosa-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e034",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Lee County",
+    "slug": "florida-lee-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e035",
+    "country": "United States",
+    "region": "California",
+    "area": "San Mateo County",
+    "slug": "california-san-mateo-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e036",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Great Lakes",
+    "slug": "new-south-wales-great-lakes"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e037",
+    "country": "Ireland",
+    "region": "Ulster",
+    "area": "Donegal",
+    "slug": "ulster-donegal"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e038",
+    "country": "Puerto Rico",
+    "region": "Rincón Municipio",
+    "area": "Rincón Barrio-Pueblo",
+    "slug": "rincon-municipio-rincon-barrio-pueblo"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e03a",
+    "country": "United States",
+    "region": "North Carolina",
+    "area": "Pender County",
+    "slug": "north-carolina-pender-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e039",
+    "country": "United States",
+    "region": "New York",
+    "area": "Suffolk County",
+    "slug": "new-york-suffolk-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e03b",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Gulf County",
+    "slug": "florida-gulf-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e03c",
+    "country": "Mexico",
+    "region": "Baja California",
+    "area": "Ensenada Municipality",
+    "slug": "baja-california-ensenada-municipality"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e03d",
+    "country": "Puerto Rico",
+    "region": "Canóvanas Municipio",
+    "area": "Torrecilla Alta Barrio",
+    "slug": "canovanas-municipio-torrecilla-alta-barrio"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e03e",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Collier County",
+    "slug": "florida-collier-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e040",
+    "country": "United States",
+    "region": "South Carolina",
+    "area": "Georgetown County",
+    "slug": "south-carolina-georgetown-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e03f",
+    "country": "United States",
+    "region": "New Hampshire",
+    "area": "Rockingham County",
+    "slug": "new-hampshire-rockingham-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e041",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Brevard County",
+    "slug": "florida-brevard-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e042",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Byron Shire",
+    "slug": "new-south-wales-byron-shire"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e043",
+    "country": "United States",
+    "region": "New Jersey",
+    "area": "Cape May County",
+    "slug": "new-jersey-cape-may-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e044",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Palm Beach County",
+    "slug": "florida-palm-beach-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e046",
+    "country": "Costa Rica",
+    "region": "Provincia de Guanacaste",
+    "area": "Santa Cruz",
+    "slug": "provincia-de-guanacaste-santa-cruz"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e045",
+    "country": "United States",
+    "region": "California",
+    "area": "Santa Barbara County",
+    "slug": "california-santa-barbara-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e047",
+    "country": "Puerto Rico",
+    "region": "Aguadilla",
+    "area": "Montaña Barrio",
+    "slug": "aguadilla-montana-barrio"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e048",
+    "country": "United States",
+    "region": "Texas",
+    "area": "Brazoria County",
+    "slug": "texas-brazoria-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e049",
+    "country": "Portugal",
+    "region": "Leiria",
+    "area": "Peniche Municipality",
+    "slug": "leiria-peniche-municipality"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e04a",
+    "country": "Australia",
+    "region": "Queensland",
+    "area": "Gold Coast",
+    "slug": "queensland-gold-coast"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e04b",
+    "country": "El Salvador",
+    "region": "Departamento de La Libertad",
+    "area": "La Libertad",
+    "slug": "departamento-de-la-libertad-la-libertad"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e04c",
+    "country": "Maldives",
+    "region": "Kaafu Atoll",
+    "area": "Hulhumale",
+    "slug": "kaafu-atoll-hulhumale"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e04d",
+    "country": "Australia",
+    "region": "Western Australia",
+    "area": "Fremantle",
+    "slug": "western-australia-fremantle"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e04e",
+    "country": "Ireland",
+    "region": "Connaught",
+    "area": "County Sligo",
+    "slug": "connaught-county-sligo"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e04f",
+    "country": "United States",
+    "region": "California",
+    "area": "Marin County",
+    "slug": "california-marin-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e050",
+    "country": "United States",
+    "region": "Georgia",
+    "area": "Glynn County",
+    "slug": "georgia-glynn-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e051",
+    "country": "United States",
+    "region": "Texas",
+    "area": "Nueces County",
+    "slug": "texas-nueces-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e052",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Franklin County",
+    "slug": "florida-franklin-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e053",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Bay County",
+    "slug": "florida-bay-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e054",
+    "country": "United States",
+    "region": "New Jersey",
+    "area": "Monmouth County",
+    "slug": "new-jersey-monmouth-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e055",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Broward County",
+    "slug": "florida-broward-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e056",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Ballina",
+    "slug": "new-south-wales-ballina"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e057",
+    "country": "Australia",
+    "region": "Western Australia",
+    "area": "Margaret River",
+    "slug": "western-australia-margaret-river"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e059",
+    "country": "United States",
+    "region": "North Carolina",
+    "area": "Brunswick County",
+    "slug": "north-carolina-brunswick-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e05a",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Miami-Dade County",
+    "slug": "florida-miami-dade-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e058",
+    "country": "United States",
+    "region": "California",
+    "area": "San Francisco County",
+    "slug": "california-san-francisco-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e05b",
+    "country": "United States",
+    "region": "California",
+    "area": "Del Norte County",
+    "slug": "california-del-norte-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e05c",
+    "country": "Barbados",
+    "region": "Saint Joseph",
+    "area": "Bathsheba",
+    "slug": "saint-joseph-bathsheba"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e05d",
+    "country": "Dominican Republic",
+    "region": "Puerto Plata",
+    "area": "Sosúa",
+    "slug": "puerto-plata-sosua"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e05e",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Escambia County",
+    "slug": "florida-escambia-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e05f",
+    "country": "United States",
+    "region": "Rhode Island",
+    "area": "Newport County",
+    "slug": "rhode-island-newport-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e060",
+    "country": "United States",
+    "region": "New Jersey",
+    "area": "Ocean County",
+    "slug": "new-jersey-ocean-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e061",
+    "country": "Australia",
+    "region": "Western Australia",
+    "area": "Scarborough",
+    "slug": "western-australia-scarborough"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e062",
+    "country": "United States",
+    "region": "Maine",
+    "area": "Cumberland County",
+    "slug": "maine-cumberland-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e063",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Saint Johns County",
+    "slug": "florida-saint-johns-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e065",
+    "country": "Nicaragua",
+    "region": "Departamento de Rivas",
+    "area": "Tola",
+    "slug": "departamento-de-rivas-tola"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e064",
+    "country": "Portugal",
+    "region": "Lisbon",
+    "area": "Mafra Municipality",
+    "slug": "lisbon-mafra-municipality"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e066",
+    "country": "United States",
+    "region": "California",
+    "area": "San Luis Obispo County",
+    "slug": "california-san-luis-obispo-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e067",
+    "country": "United States",
+    "region": "Alabama",
+    "area": "Baldwin County",
+    "slug": "alabama-baldwin-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e068",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Bulli",
+    "slug": "new-south-wales-bulli"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e069",
+    "country": "United States",
+    "region": "Virginia",
+    "area": "City of Virginia Beach",
+    "slug": "virginia-city-of-virginia-beach"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e06a",
+    "country": "Mexico",
+    "region": "Baja California Sur",
+    "area": "La Paz",
+    "slug": "baja-california-sur-la-paz"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e06c",
+    "country": "Costa Rica",
+    "region": "Provincia de Limón",
+    "area": "Limón",
+    "slug": "provincia-de-limon-limon"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e06b",
+    "country": "Puerto Rico",
+    "region": "San Juan",
+    "area": "San Juan Antiguo Barrio",
+    "slug": "san-juan-san-juan-antiguo-barrio"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e06d",
+    "country": "United States",
+    "region": "California",
+    "area": "Sonoma County",
+    "slug": "california-sonoma-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e06e",
+    "country": "Mexico",
+    "region": "Baja California",
+    "area": "Playas de Rosarito",
+    "slug": "baja-california-playas-de-rosarito"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e06f",
+    "country": "United States",
+    "region": "Oregon",
+    "area": "Tillamook County",
+    "slug": "oregon-tillamook-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e070",
+    "country": "United States",
+    "region": "Oregon",
+    "area": "Lincoln County",
+    "slug": "oregon-lincoln-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e071",
+    "country": "Mexico",
+    "region": "Oaxaca",
+    "area": "Santa María Colotepec",
+    "slug": "oaxaca-santa-maria-colotepec"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e072",
+    "country": "United States",
+    "region": "Oregon",
+    "area": "Curry County",
+    "slug": "oregon-curry-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e073",
+    "country": "United States",
+    "region": "Texas",
+    "area": "Cameron County",
+    "slug": "texas-cameron-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e074",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Volusia County",
+    "slug": "florida-volusia-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e075",
+    "country": "United States",
+    "region": "Hawaii",
+    "area": "Kauai Island",
+    "slug": "hawaii-kauai-island"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e076",
+    "country": "Australia",
+    "region": "Victoria",
+    "area": "Mornington Peninsula",
+    "slug": "victoria-mornington-peninsula"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e077",
+    "country": "United States",
+    "region": "Rhode Island",
+    "area": "Washington County",
+    "slug": "rhode-island-washington-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e078",
+    "country": "Panama",
+    "region": "Provincia de Veraguas",
+    "area": "Río Grande",
+    "slug": "provincia-de-veraguas-rio-grande"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e079",
+    "country": "Costa Rica",
+    "region": "Provincia de Puntarenas",
+    "area": "Garabito",
+    "slug": "provincia-de-puntarenas-garabito"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e07a",
+    "country": "Costa Rica",
+    "region": "Provincia de Puntarenas",
+    "area": "Parrita",
+    "slug": "provincia-de-puntarenas-parrita"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e07b",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Maclean",
+    "slug": "new-south-wales-maclean"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e07c",
+    "country": "Peru",
+    "region": "Lima region",
+    "area": "Lima",
+    "slug": "lima-region-lima"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e07d",
+    "country": "Australia",
+    "region": "South Australia",
+    "area": "Kangaroo Island",
+    "slug": "south-australia-kangaroo-island"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e07f",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Bega Valley",
+    "slug": "new-south-wales-bega-valley"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e07e",
+    "country": "Costa Rica",
+    "region": "Provincia de Puntarenas",
+    "area": "Golfito",
+    "slug": "provincia-de-puntarenas-golfito"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e080",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Saint Lucie County",
+    "slug": "florida-saint-lucie-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e081",
+    "country": "Costa Rica",
+    "region": "Provincia de Guanacaste",
+    "area": "La Cruz",
+    "slug": "provincia-de-guanacaste-la-cruz"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e082",
+    "country": "United States",
+    "region": "Maryland",
+    "area": "Worcester County",
+    "slug": "maryland-worcester-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e083",
+    "country": "Australia",
+    "region": "Queensland",
+    "area": "Sunshine Coast",
+    "slug": "queensland-sunshine-coast"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e084",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Bilgola Beach",
+    "slug": "new-south-wales-bilgola-beach"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e085",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Santa Rosa County",
+    "slug": "florida-santa-rosa-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e086",
+    "country": "United States",
+    "region": "Delaware",
+    "area": "Sussex County",
+    "slug": "delaware-sussex-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e087",
+    "country": "United States",
+    "region": "Massachusetts",
+    "area": "Plymouth County",
+    "slug": "massachusetts-plymouth-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e088",
+    "country": "United States",
+    "region": "South Carolina",
+    "area": "Horry County",
+    "slug": "south-carolina-horry-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e08b",
+    "country": "Australia",
+    "region": "South Australia",
+    "area": "Alexandrina",
+    "slug": "south-australia-alexandrina"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e089",
+    "country": "Ireland",
+    "region": "Connaught",
+    "area": "County Leitrim",
+    "slug": "connaught-county-leitrim"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e08a",
+    "country": "New Zealand",
+    "region": "North Island",
+    "area": "Bay of Plenty",
+    "slug": "north-island-bay-of-plenty"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e08c",
+    "country": "Puerto Rico",
+    "region": "Municipio de Isabela",
+    "area": "Isabela Barrio-Pueblo",
+    "slug": "municipio-de-isabela-isabela-barrio-pueblo"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e08d",
+    "country": "United States",
+    "region": "Texas",
+    "area": "Matagorda County",
+    "slug": "texas-matagorda-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e08e",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Randwick",
+    "slug": "new-south-wales-randwick"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e08f",
+    "country": "Puerto Rico",
+    "region": "Arecibo",
+    "area": "Arecibo Barrio-Pueblo",
+    "slug": "arecibo-arecibo-barrio-pueblo"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e091",
+    "country": "Costa Rica",
+    "region": "Provincia de Puntarenas",
+    "area": "Puntarenas",
+    "slug": "provincia-de-puntarenas-puntarenas"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e092",
+    "country": "Puerto Rico",
+    "region": "Manatí Municipio",
+    "area": "Tierras Nuevas Saliente Barrio",
+    "slug": "manati-municipio-tierras-nuevas-saliente-barrio"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e090",
+    "country": "Costa Rica",
+    "region": "Provincia de Puntarenas",
+    "area": "Quepos",
+    "slug": "provincia-de-puntarenas-quepos"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e093",
+    "country": "United States",
+    "region": "Washington",
+    "area": "Pacific County",
+    "slug": "washington-pacific-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e095",
+    "country": "France",
+    "region": "Nouvelle-Aquitaine",
+    "area": "Landes",
+    "slug": "nouvelle-aquitaine-landes"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e096",
+    "country": "United States",
+    "region": "Hawaii",
+    "area": "Maui",
+    "slug": "hawaii-maui"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e094",
+    "country": "United States",
+    "region": "New York",
+    "area": "Nassau County",
+    "slug": "new-york-nassau-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e097",
+    "country": "Puerto Rico",
+    "region": "Fajardo Municipio",
+    "area": "Fajardo Barrio-Pueblo",
+    "slug": "fajardo-municipio-fajardo-barrio-pueblo"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e098",
+    "country": "United States",
+    "region": "Washington",
+    "area": "Clallam County",
+    "slug": "washington-clallam-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e099",
+    "country": "Puerto Rico",
+    "region": "Luquillo Municipio",
+    "area": "Mata de Plátano Barrio",
+    "slug": "luquillo-municipio-mata-de-platano-barrio"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e09a",
+    "country": "France",
+    "region": "Nouvelle-Aquitaine",
+    "area": "Pyrénées-Atlantiques",
+    "slug": "nouvelle-aquitaine-pyrenees-atlantiques"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e09b",
+    "country": "United States",
+    "region": "Florida",
+    "area": "Charlotte County",
+    "slug": "florida-charlotte-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e09d",
+    "country": "Australia",
+    "region": "Victoria",
+    "area": "Colac-Otway",
+    "slug": "victoria-colac-otway"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e09c",
+    "country": "United States",
+    "region": "Hawaii",
+    "area": "Island of Hawaii",
+    "slug": "hawaii-island-of-hawaii"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e09e",
+    "country": "United States",
+    "region": "North Carolina",
+    "area": "Carteret County",
+    "slug": "north-carolina-carteret-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e09f",
+    "country": "Puerto Rico",
+    "region": "Patillas Municipio",
+    "area": "Bajo Barrio",
+    "slug": "patillas-municipio-bajo-barrio"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a0",
+    "country": "United States",
+    "region": "South Carolina",
+    "area": "Beaufort County",
+    "slug": "south-carolina-beaufort-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a1",
+    "country": "Costa Rica",
+    "region": "Provincia de Guanacaste",
+    "area": "Nicoya",
+    "slug": "provincia-de-guanacaste-nicoya"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a2",
+    "country": "Puerto Rico",
+    "region": "Quebradillas Municipio",
+    "area": "Quebradillas Barrio-Pueblo",
+    "slug": "quebradillas-municipio-quebradillas-barrio-pueblo"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a3",
+    "country": "United States",
+    "region": "North Carolina",
+    "area": "New Hanover County",
+    "slug": "north-carolina-new-hanover-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a4",
+    "country": "United States",
+    "region": "Oregon",
+    "area": "Lane County",
+    "slug": "oregon-lane-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a5",
+    "country": "United States",
+    "region": "Virginia",
+    "area": "Northampton County",
+    "slug": "virginia-northampton-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a6",
+    "country": "United States",
+    "region": "South Carolina",
+    "area": "Colleton County",
+    "slug": "south-carolina-colleton-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a7",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Tweed",
+    "slug": "new-south-wales-tweed"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a8",
+    "country": "Costa Rica",
+    "region": "Provincia de San José",
+    "area": "Pérez Zeledón",
+    "slug": "provincia-de-san-jose-perez-zeledon"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0a9",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Warringah Council",
+    "slug": "new-south-wales-warringah-council"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0aa",
+    "country": "United States",
+    "region": "Georgia",
+    "area": "Camden County",
+    "slug": "georgia-camden-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0ab",
+    "country": "Australia",
+    "region": "New South Wales",
+    "area": "Sutherland Shire",
+    "slug": "new-south-wales-sutherland-shire"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0ac",
+    "country": "Australia",
+    "region": "Western Australia",
+    "area": "Mosman Park",
+    "slug": "western-australia-mosman-park"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0ad",
+    "country": "Mexico",
+    "region": "Nayarit",
+    "area": "Bahía de Banderas",
+    "slug": "nayarit-bahia-de-banderas"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0ae",
+    "country": "United States",
+    "region": "North Carolina",
+    "area": "Currituck County",
+    "slug": "north-carolina-currituck-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b0",
+    "country": "Puerto Rico",
+    "region": "Carolina Municipio",
+    "area": "Carolina Barrio-Pueblo",
+    "slug": "carolina-municipio-carolina-barrio-pueblo"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0af",
+    "country": "Australia",
+    "region": "South Australia",
+    "area": "Yorke Peninsula",
+    "slug": "south-australia-yorke-peninsula"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b1",
+    "country": "Portugal",
+    "region": "Lisbon",
+    "area": "Oeiras Municipality",
+    "slug": "lisbon-oeiras-municipality"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b2",
+    "country": "United States",
+    "region": "Massachusetts",
+    "area": "Barnstable County",
+    "slug": "massachusetts-barnstable-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b3",
+    "country": "United States",
+    "region": "Oregon",
+    "area": "Clatsop County",
+    "slug": "oregon-clatsop-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b5",
+    "country": "Australia",
+    "region": "South Australia",
+    "area": "Ceduna",
+    "slug": "south-australia-ceduna"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b4",
+    "country": "Panama",
+    "region": "Provincia de Bocas del Toro",
+    "area": "Barranco",
+    "slug": "provincia-de-bocas-del-toro-barranco"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b6",
+    "country": "Portugal",
+    "region": "Coimbra",
+    "area": "Figueira da Foz Municipality",
+    "slug": "coimbra-figueira-da-foz-municipality"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b7",
+    "country": "Puerto Rico",
+    "region": "Aguadilla",
+    "area": "Aguadilla Barrio-Pueblo",
+    "slug": "aguadilla-aguadilla-barrio-pueblo"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b8",
+    "country": "United States",
+    "region": "New York",
+    "area": "Kings County",
+    "slug": "new-york-kings-county"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0ba",
+    "country": "United States",
+    "region": "New York",
+    "area": "Queens",
+    "slug": "new-york-queens"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0b9",
+    "country": "Australia",
+    "region": "Western Australia",
+    "area": "Geraldton",
+    "slug": "western-australia-geraldton"
+  },
+  {
+    "_id": "5ec94c7015e7542db038e0bb",
+    "country": "Australia",
+    "region": "Victoria",
+    "area": "Greater Geelong",
+    "slug": "victoria-greater-geelong"
+  }
+]

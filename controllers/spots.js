@@ -1,4 +1,5 @@
 const path = require('path');
+const sharp = require('sharp');
 const ErrorResponse = require('../utils/errorResponse');
 const asyncHandler = require('../middleware/async');
 const Spot = require('../models/Spot');
@@ -135,7 +136,7 @@ exports.spotPhotoUpload = asyncHandler(async (req, res, next) => {
     path.parse(file.name).ext
   }`;
 
-  file.mv(`${process.env.FILE_UPLOAD_PATH}/${file.name}`, async err => {
+  file.mv(`${process.env.FILE_STORE_PATH}/${file.name}`, async err => {
     if (err) {
       console.error(err);
       return next(new ErrorResponse(`Problem with file upload`, 500));
@@ -144,6 +145,13 @@ exports.spotPhotoUpload = asyncHandler(async (req, res, next) => {
     await Spot.findByIdAndUpdate(req.params.id, {
       $push: { photos: file.name }
     });
+
+    sharp(`${process.env.FILE_STORE_PATH}/${file.name}`)
+      .resize(640, 480)
+      .toFile(`${process.env.FILE_UPLOAD_PATH}/${file.name}`, err => {
+        console.error(err);
+        return next(new ErrorResponse(`Problem with file upload`, 500));
+      });
 
     res.status(200).json({
       success: true,
