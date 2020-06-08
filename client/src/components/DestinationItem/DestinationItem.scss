@@ -1,0 +1,43 @@
+.destination-item {
+  border-radius: 5px;
+  height: 240px;
+  flex: 1;
+  margin-bottom: 1rem;
+
+  .img-container {
+    position: relative;
+    margin: 0 5px;
+    .item-img {
+      height: 190px;
+      width: 100%;
+      min-width: 200px;
+    }
+
+    .item-spots {
+      position: absolute;
+      top: 84%;
+      width: 100%;
+      color: white;
+      font: bold 15px/30px Helvetica, Sans-Serif;
+      letter-spacing: -1px;
+      background: rgb(0, 0, 0); /* fallback color */
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .item-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .item-area {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-top: 0.25rem;
+    }
+    .item-region {
+      font-size: 1rem;
+    }
+  }
+}

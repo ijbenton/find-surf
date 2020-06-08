@@ -30,7 +30,7 @@ const SpotSchema = new mongoose.Schema({
   bestTide: String,
   photos: {
     type: [String],
-    default: []
+    default: ['no-image.jpg']
   },
   destination: {
     type: mongoose.Schema.ObjectId,
@@ -62,21 +62,74 @@ SpotSchema.pre('save', function(next) {
   next();
 });
 
+function timeout(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+async function sleep(param) {
+  await timeout(10000 * Math.random() + 1);
+  return geocoder.geocode(param);
+}
+
 // Geocode & create location field
 SpotSchema.pre('save', async function(next) {
-  const loc = await geocoder.geocode(
-    `${this.spotName}, ${this.area2}, ${this.area1}, ${this.region}, ${this.country}`
-  );
-  this.location = {
-    type: 'Point',
-    coordinates: [loc[0].longitude, loc[0].latitude],
-    formattedAddress: loc[0].formattedAddress,
-    street: loc[0].streetName,
-    city: loc[0].city,
-    state: loc[0].stateCode,
-    zipcode: loc[0].zipcode,
-    country: loc[0].countryCode
-  };
+  // const loc = await geocoder.geocode(
+  //   `${this.spotName}, ${this.area2}, ${this.area1}, ${this.region}, ${this.country}`
+  // );
+  let loc;
+  if (this.location) {
+    loc = await sleep(
+      `${this.location.coordinates[1]}, ${this.location.coordinates[0]}`
+    );
+  } else {
+    loc = await sleep(
+      `${this.spotName}, ${this.area1}, ${this.region}, ${this.country}`
+    );
+  }
+
+  //console.log(loc);
+  if (loc[0]) {
+    this.location = {
+      type: 'Point',
+      coordinates: [loc[0].longitude, loc[0].latitude],
+      formattedAddress: loc[0].formattedAddress,
+      street: loc[0].streetName,
+      city: loc[0].city,
+      state: loc[0].stateCode,
+      zipcode: loc[0].zipcode,
+      country: loc[0].countryCode
+    };
+  }
+
+  // // Do not save address in DB
+  // this.address = undefined;
+  next();
+});
+
+SpotSchema.pre('updateOne', function(next) {
+  let loc;
+  if (this.location) {
+    loc = await sleep(
+      `${this.location.coordinates[1]}, ${this.location.coordinates[0]}`
+    );
+  } else {
+    loc = await sleep(
+      `${this.spotName}, ${this.area1}, ${this.region}, ${this.country}`
+    );
+  }
+
+  //console.log(loc);
+  if (loc[0]) {
+    this.location = {
+      type: 'Point',
+      coordinates: [loc[0].longitude, loc[0].latitude],
+      formattedAddress: loc[0].formattedAddress,
+      street: loc[0].streetName,
+      city: loc[0].city,
+      state: loc[0].stateCode,
+      zipcode: loc[0].zipcode,
+      country: loc[0].countryCode
+    };
+  }
 
   // // Do not save address in DB
   // this.address = undefined;

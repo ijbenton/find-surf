@@ -1,10 +1,13 @@
 .collection-preview {
   display: flex;
   flex-direction: column;
-  margin: 0 4rem;
+  .collection-title {
+    margin-top: 0.5rem;
+  }
   .preview-container {
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 auto;
+    flex: 1;
+    margin-bottom: 1rem;
   }
 }

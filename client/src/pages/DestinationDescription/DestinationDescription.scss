@@ -1,0 +1,13 @@
+@import '../../scss/_config.scss';
+.destination-page {
+  @include pageStyles();
+  display: flex;
+  flex-direction: column;
+
+  .destination-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-bottom: 1rem;
+  }
+}

@@ -34,10 +34,12 @@ class Navbar extends Component {
     return (
       <nav>
         <div className="left">
-          <div className="logoContainer">
-            <Logo></Logo>
-            <span>FindSurf</span>
-          </div>
+          <Link to="/">
+            <div className="logoContainer">
+              <Logo></Logo>
+              <span>FindSurf</span>
+            </div>
+          </Link>
           <Searchbar />
         </div>
 

@@ -10,6 +10,10 @@ import { loadUser } from './redux/auth/auth.actions';
 import './App.scss';
 
 const Homepage = lazy(() => import('./pages/Homepage/Homepage'));
+const SpotsPage = lazy(() => import('./pages/Spots/Spots'));
+const DestinationsPage = lazy(() =>
+  import('./pages/Destinations/Destinations')
+);
 
 class App extends Component {
   componentDidMount() {
@@ -20,10 +24,11 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-
         <Switch>
           <Suspense fallback={<Spinner />}>
-            <Route exact path="/" render={() => <Homepage />} />
+            <Route exact path="/" component={Homepage} />
+            <Route path="/spots" component={SpotsPage} />
+            <Route path="/destinations" component={DestinationsPage} />
           </Suspense>
         </Switch>
       </div>

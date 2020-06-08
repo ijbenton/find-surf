@@ -142,20 +142,35 @@ exports.spotPhotoUpload = asyncHandler(async (req, res, next) => {
       return next(new ErrorResponse(`Problem with file upload`, 500));
     }
 
-    await Spot.findByIdAndUpdate(req.params.id, {
-      $push: { photos: file.name }
+    const isDefault = await Spot.find({
+      _id: req.params.id,
+      spots: 'no-image.jpg'
     });
+
+    if (isDefault) {
+      await Spot.findByIdAndUpdate(req.params.id, {
+        photos: [file.name]
+      });
+    } else {
+      await Spot.findByIdAndUpdate(req.params.id, {
+        $push: { photos: file.name }
+      });
+    }
+
+    // await Spot.findByIdAndUpdate(req.params.id, {
+    //   $push: { photos: file.name }
+    // });
 
     sharp(`${process.env.FILE_STORE_PATH}/${file.name}`)
       .resize(640, 480)
-      .toFile(`${process.env.FILE_UPLOAD_PATH}/${file.name}`, err => {
-        console.error(err);
-        return next(new ErrorResponse(`Problem with file upload`, 500));
-      });
+      .toFile(`${process.env.FILE_UPLOAD_PATH}/${file.name}`);
 
     res.status(200).json({
       success: true,
-      data: file.name
+      data: {
+        fileName: file.name,
+        filePath: `${process.env.FILE_UPLOAD_PATH}/${file.name}`
+      }
     });
   });
 });

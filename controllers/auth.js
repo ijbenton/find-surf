@@ -205,6 +205,7 @@ const sendTokenResponse = (user, statusCode, res) => {
       success: true,
       token,
       user: {
+        role: user.role,
         id: user.id,
         name: user.name,
         email: user.email

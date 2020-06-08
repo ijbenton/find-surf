@@ -1,0 +1,4 @@
+@import '../../scss/_config.scss';
+.collection {
+  @include pageStyles();
+}

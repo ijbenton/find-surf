@@ -1,4 +1,4 @@
+@import '../../scss/_config.scss';
 .homepage {
-  max-width: 1200px;
-  margin: 0 auto;
+  @include pageStyles();
 }

@@ -1,0 +1,11 @@
+.spot-page {
+  .spot-container {
+    display: flex;
+    .img-container {
+      padding: 1rem;
+      .spot-img {
+        width: 100%;
+      }
+    }
+  }
+}

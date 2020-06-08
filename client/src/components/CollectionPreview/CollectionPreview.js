@@ -1,20 +1,23 @@
 import React from 'react';
 
-import CollectionItem from '../CollectionItem/CollectionItem';
+import SpotItem from '../SpotItem/SpotItem';
+import DestinationItem from '../DestinationItem/DestinationItem';
 
 import './CollectionPreview.scss';
 
-function CollectionPreview({ items, title }) {
+function CollectionPreview({ items, title, destinations, spots }) {
   return (
     <div className="collection-preview">
       <h2 className="collection-title">{title}</h2>
       <div className="preview-container">
         {items
-          ? items
-              .filter((item, index) => index < 4)
-              .map((item, index) => (
-                <CollectionItem item={item} key={item._id} />
-              ))
+          ? items.map((item, index) =>
+              destinations ? (
+                <DestinationItem item={item} key={item._id} />
+              ) : (
+                <SpotItem item={item} key={item._id} />
+              )
+            )
           : null}
       </div>
     </div>
