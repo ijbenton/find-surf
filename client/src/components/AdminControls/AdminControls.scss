@@ -1,4 +1,7 @@
+@import '../../scss/_config.scss';
 .admin-controls {
   display: flex;
   flex-direction: column;
+  @include pageStyles();
+  margin-top: 2rem;
 }

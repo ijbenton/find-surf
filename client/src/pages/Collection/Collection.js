@@ -7,6 +7,7 @@ import DestinationItem from '../../components/DestinationItem/DestinationItem';
 import './Collection.scss';
 
 const CollectionPage = ({ collection, spots, destinations }) => {
+  console.log(collection);
   const { title, items } = collection;
   return (
     <div className="collection">
@@ -21,7 +22,7 @@ const CollectionPage = ({ collection, spots, destinations }) => {
 };
 
 const mapStateToProps = (state, ownProps) => ({
-  collection: state.collections
+  collection: ownProps.destinations ? state.destinations : state.spots
 });
 
 export default connect(mapStateToProps)(CollectionPage);

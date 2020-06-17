@@ -29,7 +29,7 @@ const Map = ({ location, spotName }) => {
 
   return (
     // Important! Always set the container height explicitly
-    <div style={{ height: '80vh', width: '100%' }}>
+    <div style={{ height: '500px', width: '100%' }}>
       <GoogleMapReact
         bootstrapURLKeys={{ key: 'AIzaSyDDlEf5_EQ20BqGalNUQEF6KlwKbqfpRPw' }}
         defaultCenter={coordinates.center}

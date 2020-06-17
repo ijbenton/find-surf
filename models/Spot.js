@@ -20,10 +20,7 @@ const SpotSchema = new mongoose.Schema({
   area1: String,
   area2: String,
   slug: String,
-  description: {
-    type: String,
-    maxlength: [6000, 'Description can not be more than 6000 characters']
-  },
+  description: String,
   swellDirection: String,
   bestWind: String,
   bestSize: String,
@@ -88,6 +85,7 @@ SpotSchema.pre('save', async function(next) {
 
   //console.log(loc);
   if (loc[0]) {
+    console.log('HELLO');
     this.location = {
       type: 'Point',
       coordinates: [loc[0].longitude, loc[0].latitude],
@@ -105,35 +103,38 @@ SpotSchema.pre('save', async function(next) {
   next();
 });
 
-SpotSchema.pre('updateOne', function(next) {
-  let loc;
-  if (this.location) {
-    loc = await sleep(
-      `${this.location.coordinates[1]}, ${this.location.coordinates[0]}`
-    );
-  } else {
-    loc = await sleep(
-      `${this.spotName}, ${this.area1}, ${this.region}, ${this.country}`
-    );
-  }
+// SpotSchema.pre('updateOne', async function(next) {
+//   let loc;
+//   console.log(this.getUpdate());
+//   //console.log(this._update); { '$set': { name: 'I was updated!' } }
+//   if (this.location) {
+//     loc = await sleep(
+//       `${this.location.coordinates[1]}, ${this.location.coordinates[0]}`
+//     );
+//   }
+//   // else {
+//   //   loc = await sleep(
+//   //     `${this.spotName}, ${this.area1}, ${this.region}, ${this.country}`
+//   //   );
+//   // }
 
-  //console.log(loc);
-  if (loc[0]) {
-    this.location = {
-      type: 'Point',
-      coordinates: [loc[0].longitude, loc[0].latitude],
-      formattedAddress: loc[0].formattedAddress,
-      street: loc[0].streetName,
-      city: loc[0].city,
-      state: loc[0].stateCode,
-      zipcode: loc[0].zipcode,
-      country: loc[0].countryCode
-    };
-  }
+//   //console.log(loc);
+//   if (loc[0]) {
+//     this.location = {
+//       type: 'Point',
+//       coordinates: [loc[0].longitude, loc[0].latitude],
+//       formattedAddress: loc[0].formattedAddress,
+//       street: loc[0].streetName,
+//       city: loc[0].city,
+//       state: loc[0].stateCode,
+//       zipcode: loc[0].zipcode,
+//       country: loc[0].countryCode
+//     };
+//   }
 
-  // // Do not save address in DB
-  // this.address = undefined;
-  next();
-});
+//   // // Do not save address in DB
+//   // this.address = undefined;
+//   next();
+// });
 
 module.exports = mongoose.model('Spot', SpotSchema);

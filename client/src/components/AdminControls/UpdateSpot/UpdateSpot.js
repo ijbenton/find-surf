@@ -12,6 +12,7 @@ const UpdateSpot = ({ updateSpot }) => {
   const onSubmit = e => {
     e.preventDefault();
     let data = JSON.stringify(serialize(e.target));
+   
     updateSpot(match.params.spotId, data);
   };
   return (

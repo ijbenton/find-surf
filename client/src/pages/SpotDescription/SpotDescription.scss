@@ -1,11 +1,17 @@
+@import '../../scss/_config.scss';
 .spot-page {
+  @include pageStyles();
   .spot-container {
     display: flex;
     .img-container {
-      padding: 1rem;
+      padding: 0.5rem 1rem;
       .spot-img {
         width: 100%;
+        margin-bottom: 0.5rem;
       }
     }
+  }
+  .spot-description {
+    padding: 0 1rem;
   }
 }

@@ -24,7 +24,7 @@ const FileUpload = ({ setFile, setFileName, file, uploadFile }) => {
 
   const { fileName } = file;
   return (
-    <Fragment>
+    <div className="file-upload">
       <form onSubmit={onSubmit}>
         <div className="custom-file">
           <input
@@ -40,7 +40,7 @@ const FileUpload = ({ setFile, setFileName, file, uploadFile }) => {
 
         <input type="submit" value="Upload" />
       </form>
-    </Fragment>
+    </div>
   );
 };
 

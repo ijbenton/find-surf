@@ -44,5 +44,11 @@ export function serialize(form) {
         break;
     }
   }
+  if (
+    data.location.coordinates[0] === 0 &&
+    data.location.coordinates[1] === 0
+  ) {
+    delete data.location;
+  }
   return data;
 }

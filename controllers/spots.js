@@ -46,7 +46,7 @@ exports.createSpot = asyncHandler(async (req, res, next) => {
 // @access  Private/Admin
 exports.updateSpot = asyncHandler(async (req, res, next) => {
   let spot = await Spot.findById(req.params.id);
-
+  console.log(req.body);
   if (!spot) {
     return next(
       new ErrorResponse(`Spot not found with id of ${req.params.id}`, 404)
@@ -63,10 +63,20 @@ exports.updateSpot = asyncHandler(async (req, res, next) => {
     );
   }
 
-  spot = await Spot.findByIdAndUpdate(req.params.id, req.body, {
-    new: true,
-    runValidators: true
-  });
+  if (req.body.location) {
+    spot.location.coordinates = req.body.location.coordinates;
+    await spot.save();
+  } else {
+    await Spot.updateOne({ _id: req.params.id }, req.body, {
+      new: true,
+      runValidators: true
+    });
+  }
+
+  // spot = await Spot.updateOne({ _id: req.params.id }, req.body, {
+  //   new: true,
+  //   runValidators: true
+  // });
 
   res.status(200).json({ success: true, data: spot });
 });
