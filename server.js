@@ -17,6 +17,7 @@ const destinations = require('./routes/destinations');
 const spots = require('./routes/spots');
 const auth = require('./routes/auth');
 const users = require('./routes/users');
+const search = require('./routes/search');
 
 const app = express();
 
@@ -39,6 +40,7 @@ app.use('/api/v1/destinations', destinations);
 app.use('/api/v1/spots', spots);
 app.use('/api/v1/auth', auth);
 app.use('/api/v1/users', users);
+app.use('/api/v1/search', search);
 
 app.use(errorHandler);
 

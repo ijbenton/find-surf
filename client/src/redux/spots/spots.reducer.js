@@ -2,6 +2,9 @@ import {
   SPOTS_FAILURE,
   SPOTS_LOADED,
   SPOTS_LOADING,
+  SPOTS_PREVIEW_FAILURE,
+  SPOTS_PREVIEW_LOADED,
+  SPOTS_PREVIEW_LOADING,
   UPDATE_SPOT_FAILURE,
   UPDATE_SPOT_START,
   UPDATE_SPOT_SUCCESS
@@ -15,7 +18,7 @@ const initialState = {
   isUpdating: false
 };
 
-export default function(state = initialState, action) {
+export default function (state = initialState, action) {
   switch (action.type) {
     case SPOTS_LOADING:
       return {
@@ -29,6 +32,23 @@ export default function(state = initialState, action) {
         spots: action.payload
       };
     case SPOTS_FAILURE:
+      return {
+        ...state,
+        spots: null,
+        isLoading: false
+      };
+    case SPOTS_PREVIEW_LOADING:
+      return {
+        ...state,
+        isLoading: true
+      };
+    case SPOTS_PREVIEW_LOADED:
+      return {
+        ...state,
+        isLoading: false,
+        spots: action.payload
+      };
+    case SPOTS_PREVIEW_FAILURE:
       return {
         ...state,
         spots: null,

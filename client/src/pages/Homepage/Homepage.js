@@ -5,17 +5,15 @@ import { Route } from 'react-router-dom';
 import CollectionPreview from '../../components/CollectionPreview/CollectionPreview';
 import DestinationItem from '../../components/DestinationItem/DestinationItem';
 
-import { getDestinations } from '../../redux/destinations/destinations.actions';
-import { getSpots } from '../../redux/spots/spots.actions';
+import { getDestinationsPreview } from '../../redux/destinations/destinations.actions';
+import { getSpotsPreview } from '../../redux/spots/spots.actions';
 
 import './Homepage.scss';
 
 class Homepage extends Component {
   componentDidMount() {
-    if (!this.props.destinations.destinations || !this.props.spots.spots) {
-      this.props.getDestinations();
-      this.props.getSpots();
-    }
+    this.props.getDestinationsPreview();
+    this.props.getSpotsPreview();
   }
   render() {
     const { destinations } = this.props.destinations;
@@ -31,6 +29,14 @@ class Homepage extends Component {
             routeName="destinations"
           />
         ) : null}
+        {spots ? (
+          <CollectionPreview
+            items={spots.data}
+            title="Spots"
+            spots={true}
+            routeName="spots"
+          />
+        ) : null}
       </div>
     );
   }
@@ -42,8 +48,8 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  getDestinations: () => dispatch(getDestinations()),
-  getSpots: () => dispatch(getSpots())
+  getDestinationsPreview: () => dispatch(getDestinationsPreview()),
+  getSpotsPreview: () => dispatch(getSpotsPreview())
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Homepage);

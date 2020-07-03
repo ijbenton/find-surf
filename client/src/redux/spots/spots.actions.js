@@ -5,16 +5,19 @@ import {
   SPOTS_FAILURE,
   SPOTS_LOADED,
   SPOTS_LOADING,
+  SPOTS_PREVIEW_FAILURE,
+  SPOTS_PREVIEW_LOADED,
+  SPOTS_PREVIEW_LOADING,
   UPDATE_SPOT_FAILURE,
   UPDATE_SPOT_START,
   UPDATE_SPOT_SUCCESS
 } from './spots.types';
 
-export const getSpots = () => dispatch => {
+export const getSpots = pageNum => dispatch => {
   dispatch({ type: SPOTS_LOADING });
 
   axios
-    .get('/api/v1/spots?limit=1000')
+    .get(`/api/v1/spots?page=${pageNum}`)
     .then(res =>
       dispatch({
         type: SPOTS_LOADED,
@@ -27,6 +30,26 @@ export const getSpots = () => dispatch => {
       );
       dispatch({
         type: SPOTS_FAILURE
+      });
+    });
+};
+export const getSpotsPreview = () => dispatch => {
+  dispatch({ type: SPOTS_PREVIEW_LOADING });
+
+  axios
+    .get('/api/v1/spots?limit=5')
+    .then(res =>
+      dispatch({
+        type: SPOTS_PREVIEW_LOADED,
+        payload: res.data
+      })
+    )
+    .catch(err => {
+      dispatch(
+        returnErrors(err.response.data, err.response.status, 'SPOTS_PREVIEW_FAILURE')
+      );
+      dispatch({
+        type: SPOTS_PREVIEW_FAILURE
       });
     });
 };

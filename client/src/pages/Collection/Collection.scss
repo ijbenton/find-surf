@@ -1,4 +1,35 @@
 @import '../../scss/_config.scss';
+
 .collection {
+  display: flex;
+  flex-direction: column;
   @include pageStyles();
+  .collection-title {
+    margin-top: 0.5rem;
+  }
+  .collection-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-bottom: 1rem;
+  }
+  .page-number{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    .current-page{
+      font-size: 2rem;
+      font-weight: bolder;
+      margin: 0 0.75rem;
+    }
+    svg{
+      &:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: transform .1s ease-in;
+      }
+    }
+  }
 }
