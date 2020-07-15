@@ -5,7 +5,7 @@ import rootReducer from './root-reducer';
 
 const initialState = {};
 
-const middleware = [thunk, logger];
+const middleware = [thunk];
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 

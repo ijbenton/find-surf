@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import {
+  faSearch,
+  faLocationArrow,
+  faMapMarkedAlt
+} from '@fortawesome/free-solid-svg-icons';
 
 import { getSpots } from '../../redux/spots/spots.actions';
 import { getDestinations } from '../../redux/destinations/destinations.actions';
@@ -16,56 +20,61 @@ class Searchbar extends Component {
 
     this.state = {
       term: '',
-      searchResult: null
+      searchResult: null,
+      dropdownOpen: false
     };
   }
 
-  updateTerm = e => {
-    this.setState({
-      term: e.target.value
-    });
-  };
-
   search = e => {
     e.preventDefault();
-    this.props.getSearchResults(this.state.term);
-    // const { destinations, spots } = this.props;
-    // const spotResults = [];
-    // const destinationResults = [];
-    // for (let i = 0; i < spots.length; i++) {
-    //   if (
-    //     spots[i].spotName.toLowerCase().includes(this.state.term.toLowerCase())
-    //   ) {
-    //     spotResults.push(spots[i]);
-    //   }
-    // }
-    // for (let i = 0; i < destinations.length; i++) {
-    //   if (
-    //     destinations[i].area
-    //       .toLowerCase()
-    //       .includes(this.state.term.toLowerCase()) ||
-    //     destinations[i].region
-    //       .toLowerCase()
-    //       .includes(this.state.term.toLowerCase()) ||
-    //     destinations[i].country
-    //       .toLowerCase()
-    //       .includes(this.state.term.toLowerCase())
-    //   ) {
-    //     destinationResults.push(spots[i]);
-    //   }
-    // }
-    // const searchResults = [...spotResults, ...destinationResults];
-    this.setState({
-      results: this.props.results
-    });
-    console.log(this.props.results);
+    if (e.target.value !== '') {
+      this.props.getSearchResults(e.target.value);
+      this.setState({
+        term: e.target.value,
+        results: this.props.results,
+        dropdownOpen: true
+      });
+    } else {
+      this.setState({
+        term: e.target.value,
+        results: null,
+        dropdownOpen: false
+      });
+    }
   };
   render() {
     return (
-      <div className="searchBar">
-        <form onSubmit={this.search}>
-          <input placeholder="Search" onChange={this.updateTerm} />
-          <FontAwesomeIcon icon={faSearch} onClick={this.search} />
+      <div className="search-bar">
+        <form>
+          <input placeholder="Search" onChange={this.search} />
+          {this.state.dropdownOpen &&
+          this.props.results &&
+          this.props.results.length >= 1 ? (
+            <ul className="search-results">
+              {this.props.results.map((item, index) => (
+                <li key={index}>
+                  {item.spotName ? (
+                    <div className="result">
+                      <FontAwesomeIcon icon={faLocationArrow} size="xs" />
+                      <span className="result-title">{item.spotName} </span>
+                      <span className="result-location">
+                        - {item.area1}, {item.region}, {item.country}
+                      </span>
+                    </div>
+                  ) : (
+                    <div className="result">
+                      <FontAwesomeIcon icon={faMapMarkedAlt} />
+                      <span className="result-title">{item.area} </span>
+                      <span className="result-location">
+                        - {item.region}, {item.country}
+                      </span>
+                    </div>
+                  )}
+                </li>
+              ))}
+            </ul>
+          ) : null}
+          <FontAwesomeIcon icon={faSearch} />
         </form>
       </div>
     );
@@ -84,5 +93,5 @@ const mapDispatchToProps = dispatch => ({
   getSpots: () => dispatch(getSpots()),
   getDestinations: () => dispatch(getDestinations()),
   getSearchResults: term => dispatch(getSearchResults(term))
-})
+});
 export default connect(mapStateToProps, mapDispatchToProps)(Searchbar);
