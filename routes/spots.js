@@ -15,7 +15,7 @@ const router = express.Router();
 const advancedResults = require('../middleware/advancedResults');
 const { protect, authorize } = require('../middleware/auth');
 
-router.route('/:id/photos').put(protect, spotPhotoUpload);
+router.route('/:slug/photos').put(protect, spotPhotoUpload);
 
 router
   .route('/')
@@ -23,7 +23,7 @@ router
   .post(protect, authorize('admin'), createSpot);
 
 router
-  .route('/:id')
+  .route('/:slug')
   .get(getSpot)
   .put(protect, authorize('admin'), updateSpot)
   .delete(protect, authorize('admin'), deleteSpot);

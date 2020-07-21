@@ -18,7 +18,7 @@ const SpotsPage = () => {
           />
           <Route
             exact
-            path={`${match.path}/:spotId`}
+            path={`${match.path}/:spotSlug`}
             component={SpotDescription}
           />
         </Suspense>

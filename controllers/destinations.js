@@ -9,12 +9,12 @@ exports.getDestinations = asyncHandler(async (req, res, next) => {
   res.status(200).json(res.advancedResults);
 });
 
-// @desc    Get single destination
+// @desc    Get single destination by ID
 // @route   GET /api/v1/destinations/:id
 // @access  Public
 exports.getDestination = asyncHandler(async (req, res, next) => {
-  const destination = await Destination.findById(req.params.id);
-
+  //const destination = await Destination.findById(req.params.id);
+  const destination = await Destination.findOne({ slug: req.params.slug });
   if (!destination) {
     return next(
       new ErrorResponse(
@@ -24,10 +24,24 @@ exports.getDestination = asyncHandler(async (req, res, next) => {
     );
   }
 
-  res.status(200).json({
-    success: true,
-    data: destination
-  });
+  res.status(200).json(res.advancedResults);
+});
+
+// @desc    Get single destination by Slug
+// @route   GET /api/v1/destinations/:id
+// @access  Public
+exports.getDestination = asyncHandler(async (req, res, next) => {
+  const destination = await Destination.findOne({ slug: req.params.slug });
+  if (!destination) {
+    return next(
+      new ErrorResponse(
+        `Destination not found with slug of ${req.params.slug}`,
+        404
+      )
+    );
+  }
+
+  res.status(200).json(res.advancedResults);
 });
 
 // @desc    Create new destination
@@ -46,8 +60,8 @@ exports.createDestination = asyncHandler(async (req, res, next) => {
 // @route   PUT /api/v1/destinations/:id
 // @access  Private/Admin
 exports.updateDestination = asyncHandler(async (req, res, next) => {
-  let destination = await Destination.findById(req.params.id);
-
+  //let destination = await Destination.findById(req.params.id);
+  const destination = await Destination.findOne({ slug: req.params.slug });
   if (!destination) {
     return next(
       new ErrorResponse(
@@ -79,8 +93,8 @@ exports.updateDestination = asyncHandler(async (req, res, next) => {
 // @route   DELETE /api/v1/destinations/:id
 // @access  Private/Admin
 exports.deleteDestination = asyncHandler(async (req, res, next) => {
-  let destination = await Destination.findById(req.params.id);
-
+  //let destination = await Destination.findById(req.params.id);
+  const destination = await Destination.findOne({ slug: req.params.slug });
   if (!destination) {
     return next(
       new ErrorResponse(

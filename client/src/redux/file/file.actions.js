@@ -18,10 +18,10 @@ export const setFileName = fileName => ({
   payload: fileName
 });
 
-export const uploadFile = (formData, spotId) => dispatch => {
+export const uploadFile = (formData, spotSlug) => dispatch => {
   dispatch({ type: FILE_UPLOAD_STARTED });
   axios
-    .put(`/api/v1/spots/${spotId}/photos`, formData, {
+    .put(`/api/v1/spots/${spotSlug}/photos`, formData, {
       headers: {
         'Content-Type': 'multipart/form-data'
       }

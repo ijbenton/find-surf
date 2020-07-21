@@ -2,6 +2,9 @@ import {
   DESTINATIONS_FAILURE,
   DESTINATIONS_LOADED,
   DESTINATIONS_LOADING,
+  SINGLE_DESTINATION_FAILURE,
+  SINGLE_DESTINATION_LOADED,
+  SINGLE_DESTINATION_LOADING,
   DESTINATIONS_PREVIEW_FAILURE,
   DESTINATIONS_PREVIEW_LOADED,
   DESTINATIONS_PREVIEW_LOADING
@@ -9,15 +12,18 @@ import {
 
 const initialState = {
   destinations: null,
+  destinationsPreview: null,
+  singleDestination: null,
   isLoading: false
 };
 
-export default function (state = initialState, action) {
+export default function(state = initialState, action) {
   switch (action.type) {
     case DESTINATIONS_LOADING:
       return {
         ...state,
-        isLoading: true
+        isLoading: true,
+        destinations: null
       };
     case DESTINATIONS_LOADED:
       return {
@@ -31,21 +37,40 @@ export default function (state = initialState, action) {
         destinations: null,
         isLoading: false
       };
+    case SINGLE_DESTINATION_LOADING:
+      return {
+        ...state,
+        isLoading: true,
+        singleDestination: null
+      };
+    case SINGLE_DESTINATION_LOADED:
+      return {
+        ...state,
+        isLoading: false,
+        singleDestination: action.payload
+      };
+    case SINGLE_DESTINATION_FAILURE:
+      return {
+        ...state,
+        singleDestination: null,
+        isLoading: false
+      };
     case DESTINATIONS_PREVIEW_LOADING:
       return {
         ...state,
-        isLoading: true
+        isLoading: true,
+        destinationsPreview: null
       };
     case DESTINATIONS_PREVIEW_LOADED:
       return {
         ...state,
         isLoading: false,
-        destinations: action.payload
+        destinationsPreview: action.payload
       };
     case DESTINATIONS_PREVIEW_FAILURE:
       return {
         ...state,
-        destinations: null,
+        destinationsPreview: null,
         isLoading: false
       };
     default:

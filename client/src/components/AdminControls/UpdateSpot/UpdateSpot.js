@@ -12,8 +12,8 @@ const UpdateSpot = ({ updateSpot }) => {
   const onSubmit = e => {
     e.preventDefault();
     let data = JSON.stringify(serialize(e.target));
-   
-    updateSpot(match.params.spotId, data);
+
+    updateSpot(match.params.spotSlug, data);
   };
   return (
     <div className="update-spot">
@@ -46,7 +46,7 @@ const UpdateSpot = ({ updateSpot }) => {
 };
 
 const mapDispatchToProps = dispatch => ({
-  updateSpot: (spotId, formData) => dispatch(updateSpot(spotId, formData))
+  updateSpot: (spotSlug, formData) => dispatch(updateSpot(spotSlug, formData))
 });
 
 export default connect(null, mapDispatchToProps)(UpdateSpot);

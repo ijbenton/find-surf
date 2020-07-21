@@ -19,7 +19,7 @@ const FileUpload = ({ setFile, setFileName, file, uploadFile }) => {
     e.preventDefault();
     const formData = new FormData();
     formData.append('file', file);
-    uploadFile(formData, match.params.spotId);
+    uploadFile(formData, match.params.spotSlug);
   };
 
   const { fileName } = file;
@@ -51,7 +51,7 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
   setFile: file => dispatch(setFile(file)),
   setFileName: fileName => dispatch(setFileName(fileName)),
-  uploadFile: (formData, spotId) => dispatch(uploadFile(formData, spotId))
+  uploadFile: (formData, spotSlug) => dispatch(uploadFile(formData, spotSlug))
 });
 
 export default withRouter(

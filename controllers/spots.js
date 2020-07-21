@@ -12,14 +12,14 @@ exports.getSpots = asyncHandler(async (req, res, next) => {
 });
 
 // @desc    Get single spot
-// @route   GET /api/v1/spots/:id
+// @route   GET /api/v1/spots/:slug
 // @access  Public
 exports.getSpot = asyncHandler(async (req, res, next) => {
-  const spot = await Spot.findById(req.params.id);
+  const spot = await Spot.findOne({slug: req.params.slug});
 
   if (!spot) {
     return next(
-      new ErrorResponse(`Spot not found with id of ${req.params.id}`, 404)
+      new ErrorResponse(`Spot not found with slug of ${req.params.slug}`, 404)
     );
   }
 
@@ -42,14 +42,14 @@ exports.createSpot = asyncHandler(async (req, res, next) => {
 });
 
 // @desc    Update spot
-// @route   PUT /api/v1/spots/:id
+// @route   PUT /api/v1/spots/:slug
 // @access  Private/Admin
 exports.updateSpot = asyncHandler(async (req, res, next) => {
-  let spot = await Spot.findById(req.params.id);
-  console.log(req.body);
+  //let spot = await Spot.findById(req.params.id);
+  const spot = await Spot.findOne({slug: req.params.slug});
   if (!spot) {
     return next(
-      new ErrorResponse(`Spot not found with id of ${req.params.id}`, 404)
+      new ErrorResponse(`Spot not found with slug of ${req.params.slug}`, 404)
     );
   }
 
@@ -57,7 +57,7 @@ exports.updateSpot = asyncHandler(async (req, res, next) => {
   if (req.user.role !== 'admin') {
     return next(
       new ErrorResponse(
-        `User ${req.user.id} is not authorized to update this bootcamp`,
+        `User ${req.user.id} is not authorized to update this spot`,
         401
       )
     );
@@ -67,7 +67,7 @@ exports.updateSpot = asyncHandler(async (req, res, next) => {
     spot.location.coordinates = req.body.location.coordinates;
     await spot.save();
   } else {
-    await Spot.updateOne({ _id: req.params.id }, req.body, {
+    await Spot.updateOne({ slug: req.params.slug }, req.body, {
       new: true,
       runValidators: true
     });
@@ -82,14 +82,15 @@ exports.updateSpot = asyncHandler(async (req, res, next) => {
 });
 
 // @desc    Delete spot
-// @route   DELETE /api/v1/spots/:id
+// @route   DELETE /api/v1/spots/:slug
 // @access  Private/Admin
 exports.deleteSpot = asyncHandler(async (req, res, next) => {
-  let spot = await Spot.findById(req.params.id);
+  // let spot = await Spot.findById(req.params.id);
+  const spot = await Spot.findOne({slug: req.params.slug});
 
   if (!spot) {
     return next(
-      new ErrorResponse(`Spot not found with id of ${req.params.id}`, 404)
+      new ErrorResponse(`Spot not found with slug of ${req.params.slug}`, 404)
     );
   }
 
@@ -97,7 +98,7 @@ exports.deleteSpot = asyncHandler(async (req, res, next) => {
   if (req.user.role !== 'admin') {
     return next(
       new ErrorResponse(
-        `User ${req.user.id} is not authorized to update this bootcamp`,
+        `User ${req.user.id} is not authorized to update this spot`,
         401
       )
     );
@@ -109,14 +110,15 @@ exports.deleteSpot = asyncHandler(async (req, res, next) => {
 });
 
 // @desc    Upload photo to spot
-// @route   PUT /api/v1/spots/:id/photos
+// @route   PUT /api/v1/spots/:slug/photos
 // @access  Private
 exports.spotPhotoUpload = asyncHandler(async (req, res, next) => {
-  const spot = await Spot.findById(req.params.id);
+  // const spot = await Spot.findById(req.params.id);
+  const spot = await Spot.findOne({slug: req.params.slug});
 
   if (!spot) {
     return next(
-      new ErrorResponse(`Spot not found with id of ${req.params.id}`, 404)
+      new ErrorResponse(`Spot not found with slug of ${req.params.slug}`, 404)
     );
   }
 
@@ -152,17 +154,17 @@ exports.spotPhotoUpload = asyncHandler(async (req, res, next) => {
       return next(new ErrorResponse(`Problem with file upload`, 500));
     }
 
-    const isDefault = await Spot.find({
-      _id: req.params.id,
+    const isDefault = await Spot.findOne({
+      slug: req.params.slug,
       spots: 'no-image.jpg'
     });
 
     if (isDefault) {
-      await Spot.findByIdAndUpdate(req.params.id, {
+      await Spot.findOneAndUpdate({slug: req.params.slug}, {
         photos: [file.name]
       });
     } else {
-      await Spot.findByIdAndUpdate(req.params.id, {
+      await Spot.findOneAndUpdate({slug: req.params.slug}, {
         $push: { photos: file.name }
       });
     }

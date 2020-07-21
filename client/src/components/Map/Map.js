@@ -4,7 +4,14 @@ import GoogleMapReact from 'google-map-react';
 import Marker from '../Marker/Marker';
 
 const Map = ({ location, spotName }) => {
-  const coordinates = {
+  const defaultProps = {
+    center: {
+      lat: 59.95,
+      lng: 30.33
+    },
+    zoom: 11
+  };
+  let coordinates = {
     center: {
       lat: location.coordinates[1],
       lng: location.coordinates[0]
@@ -32,8 +39,9 @@ const Map = ({ location, spotName }) => {
     <div style={{ height: '500px', width: '100%' }}>
       <GoogleMapReact
         bootstrapURLKeys={{ key: 'AIzaSyDDlEf5_EQ20BqGalNUQEF6KlwKbqfpRPw' }}
-        defaultCenter={coordinates.center}
-        defaultZoom={coordinates.zoom}
+        defaultCenter={defaultProps.center}
+        center={coordinates.center}
+        defaultZoom={defaultProps.zoom}
         options={getMapOptions}
       >
         <Marker

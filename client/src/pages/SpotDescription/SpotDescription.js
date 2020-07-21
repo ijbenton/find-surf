@@ -1,23 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useRouteMatch } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
 import Map from '../../components/Map/Map';
 import AdminControls from '../../components/AdminControls/AdminControls';
+import Spinner from '../../components/Spinner/Spinner';
 
-import { selectSpotById } from '../../redux/spots/spots.selectors';
+import { selectSingleSpot } from '../../redux/spots/spots.selectors';
 import { selectUser } from '../../redux/auth/auth.selectors';
 
-import { getSpots } from '../../redux/spots/spots.actions';
+import { getSingleSpot } from '../../redux/spots/spots.actions';
 
 import './SpotDescription.scss';
 
-const SpotDescriptionPage = ({ spot, user, getSpots }) => {
+const SpotDescriptionPage = ({ spot, user, getSingleSpot }) => {
   const match = useRouteMatch();
-  if (!spot) {
-    getSpots();
-  }
+  useEffect(() => {
+    getSingleSpot(match.params.spotSlug);
+  }, [match.params.spotSlug]);
   return (
     <div className="spot-page">
       {spot ? (
@@ -46,7 +47,9 @@ const SpotDescriptionPage = ({ spot, user, getSpots }) => {
           </div>
           <Map location={spot.location} spotName={spot.spotName} />
         </div>
-      ) : null}
+      ) : (
+        <Spinner />
+      )}
       <p className="spot-description">
         {spot && spot.description ? spot.description : 'No Spot Description'}
       </p>
@@ -57,12 +60,12 @@ const SpotDescriptionPage = ({ spot, user, getSpots }) => {
 
 const mapStateToProps = (state, ownProps) =>
   createStructuredSelector({
-    spot: selectSpotById(ownProps.match.params.spotId),
+    spot: selectSingleSpot,
     user: selectUser
   });
 
 const mapDispatchToProps = dispatch => ({
-  getSpots: () => dispatch(getSpots())
+  getSingleSpot: spotSlug => dispatch(getSingleSpot(spotSlug))
 });
 
 export default connect(

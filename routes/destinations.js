@@ -20,8 +20,8 @@ router
   .post(protect, authorize('admin'), createDestination);
 
 router
-  .route('/:id')
-  .get(getDestination)
+  .route('/:slug')
+  .get(advancedResults(Destination, 'spots'), getDestination)
   .put(protect, authorize('admin'), updateDestination)
   .delete(protect, authorize('admin'), deleteDestination);
 

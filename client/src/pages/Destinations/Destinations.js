@@ -18,7 +18,7 @@ const DestinationsPage = () => {
           />
           <Route
             exact
-            path={`${match.path}/:destinationId`}
+            path={`${match.path}/:destinationSlug`}
             component={DestinationDescription}
           />
         </Suspense>

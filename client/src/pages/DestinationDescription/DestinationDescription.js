@@ -1,27 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useRouteMatch } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
 import SpotItem from '../../components/SpotItem/SpotItem';
 
-import {
-  selectDestinationById,
-  selectDestinationsData
-} from '../../redux/destinations/destinations.selectors';
-import { getDestinations } from '../../redux/destinations/destinations.actions';
+import { selectSingleDestination } from '../../redux/destinations/destinations.selectors';
+import { getSingleDestination } from '../../redux/destinations/destinations.actions';
 
 import './DestinationDescription.scss';
 
-const DestinationDescriptionPage = ({
-  destination,
-  destinations,
-  getDestinations
-}) => {
-  if (!destinations) {
-    getDestinations();
-  }
+const DestinationDescriptionPage = ({ destination, getSingleDestination }) => {
   const match = useRouteMatch();
+  useEffect(() => {
+    getSingleDestination(match.params.destinationSlug);
+  }, [match.params.destinationSlug]);
   return (
     <div className="destination-page">
       {destination ? (
@@ -39,12 +32,12 @@ const DestinationDescriptionPage = ({
 
 const mapStateToProps = (state, ownProps) =>
   createStructuredSelector({
-    destination: selectDestinationById(ownProps.match.params.destinationId),
-    destinations: selectDestinationsData
+    destination: selectSingleDestination
   });
 
 const mapDispatchToProps = dispatch => ({
-  getDestinations: () => dispatch(getDestinations())
+  getSingleDestination: destinationSlug =>
+    dispatch(getSingleDestination(destinationSlug))
 });
 
 export default connect(

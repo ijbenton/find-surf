@@ -7,14 +7,33 @@ import LoginModal from '../LoginModal/LoginModal';
 import RegisterModal from '../RegisterModal/RegisterModal';
 import Logout from '../Logout/Logout';
 import Searchbar from '../Searchbar/Searchbar';
+import OutsideAlerter from '../OutsideAlerter/OutsideAlerter';
 import { ReactComponent as Logo } from '../../assets/wave.svg';
 
 import './Navbar.scss';
 
 class Navbar extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      isSearchOpen: false
+    };
+  }
+
+  closeSearch = () => {
+    this.setState({
+      isSearchOpen: false
+    });
+  };
+
+  openSearch = () => {
+    this.setState({
+      isSearchOpen: true
+    });
+  };
   render() {
     const { isAuthenticated, user } = this.props.auth;
-
     const authLinks = (
       <Fragment>
         <span>
@@ -40,7 +59,16 @@ class Navbar extends Component {
               <span>FindSurf</span>
             </div>
           </Link>
-          <Searchbar />
+          <OutsideAlerter
+            isSearchOpen={this.state.isSearchOpen}
+            closeSearch={this.closeSearch}
+          >
+            <Searchbar
+              isSearchOpen={this.state.isSearchOpen}
+              closeSearch={this.closeSearch}
+              openSearch={this.openSearch}
+            />
+          </OutsideAlerter>
         </div>
 
         <div className="right">{isAuthenticated ? authLinks : guestLinks}</div>

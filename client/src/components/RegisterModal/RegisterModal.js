@@ -39,7 +39,6 @@ class RegisterModal extends Component {
   }
 
   handleClick = e => {
-    console.log(e.target.className);
     if (e.target.className === 'rmodal-open') {
       this.toggle();
     }

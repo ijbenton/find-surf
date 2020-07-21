@@ -8,7 +8,7 @@ const SpotItem = ({ item, history }) => {
 
   return (
     <div className="spot-item">
-      <Link to={`/spots/${item._id}`}>
+      <Link to={`/spots/${item.slug}`}>
         {item ? (
           <div className="item-container">
             <div className="img-container">

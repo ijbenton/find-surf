@@ -7,7 +7,7 @@ const DestinationItem = ({ item, destinations, spots, routeName, history }) => {
   let match = useRouteMatch();
   return (
     <div className="destination-item">
-      <Link to={`destinations/${item._id}`}>
+      <Link to={`destinations/${item.slug}`}>
         {item ? (
           <div className="item-container">
             <div className="img-container">

@@ -38,7 +38,6 @@ class LoginModal extends Component {
   }
 
   handleClick = e => {
-    console.log(e.target.className);
     if (e.target.className === 'lmodal-open') {
       this.toggle();
     }
